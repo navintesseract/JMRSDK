@@ -1,13 +1,8 @@
 # Jio Mixed Reality UI Toolkits
 
-{% hint style="danger" %}
-* Toolkit v1 has been deprecated from JMRSDK 4.12.4, please upgrade to Toolkit v2 to enjoy the latest features and upgrades
-* JMRInputField needs to be updated with the new prefab
-{% endhint %}
+**Note – It is highly recommended to use the JMRKeyboard in your applications that requires a virtual keyboard. This helps to bring consistency for the end-user and reduces overall cognitive overload while using different applications with keyboards**
 
-**Note – It is highly recommended to use the JMRKeyboard in your applications that require a virtual keyboard. This helps to bring consistency for the end-user and reduces overall cognitive overload while using different applications with keyboards**
-
-Toolkits or **JMRToolkits** are intended to accelerate the development of Applications targeting **JioGlass**. In this section, we will learn how to use and customize the Toolkits.
+Toolkits or **JMRToolkits** are intended to accelerate the development of Applications targeting **JioGlass**. In this section we will learn how to use and customize the Toolkits.
 
 ### Using the Toolkits
 
@@ -17,8 +12,8 @@ To add any toolkit to the scene, go to **JioMixedReality -> Toolkits ->** then c
 
 ![](<../.gitbook/assets/Screenshot (12).png>)
 
-* Alternatively, you can also create your **Canvas** using **GameObjects -> UI -> Canvas**. Click on **Convert to JMRSDK Canvas**. Change the position to **(0, 0, 5)**. Change the **X**, **Y** and **Z** scale to **0.001**. This scaling step is very important!
-* Let’s add the Button Toolkit to the scene. With **Canvas** **selected** go to **JioMixedReality -> Toolkits -> V2 -> Button**. **JMRUIButton** will be added as a child of the **selected GameObject.**
+* Alternatively, you can also create your own **Canvas** using **GameObjects -> UI -> Canvas**. Click on **Convert to JMRSDK Canvas**. Change the position to **(0, 0, 5)**. Change the **X**, **Y** and **Z** scale to **0.001**. This scaling step is very important!
+* Let’s add the Button Toolkit to the scene. With **Canvas** **selected** go to **JioMixedReality -> Toolkits -> V1 -> Button**. **JMRUIButton** will be added as a child of **selected GameObject.**
 
 ![](<../.gitbook/assets/Screenshot (14).png>)
 
@@ -28,7 +23,7 @@ To add any toolkit to the scene, go to **JioMixedReality -> Toolkits ->** then c
 
 ![ThemeConfigHelper](../.gitbook/assets/20.png)
 
-* Go to the **ThemeConfigHelper** script attached to the **Button**. Open the **Icon Style** dropdown and select **Sprite**.
+* Go to the **ThemeConfigHelper** script attached on the **Button**. Open the **Icon Style** dropdown and select **Sprite**.
 
 ![Changing the Icon Style](../.gitbook/assets/21.png)
 
@@ -43,14 +38,14 @@ To add any toolkit to the scene, go to **JioMixedReality -> Toolkits ->** then c
 
 * You can also add listeners to this event from other scripts.
 
-```csharp
-public JMRUIButton button;
+```
+public JMRUIButton myButton;
 myButton.onButtonClick.AddListener(MyMethod);
 ```
 
 Let’s take a look at another example.
 
-* Again, with the **Canvas selected**, go to **JioMixedReality -> Toolkits -> V1 -> Toggle** and click on it. **JMRToggle** will be added as a child of the Canvas.
+* Again, with the **Canvas selected**, go to **JioMixedReality -> Toolkits -> V1 -> Toggle** and click on it. **JMRToggle** will be added as child of the Canvas.
 
 ![](<../.gitbook/assets/Screenshot (16).png>)
 
@@ -66,22 +61,22 @@ Let’s take a look at another example.
 
 * You can also add **listeners** to this event from other scripts.
 
-```csharp
+```
 public JMRUIToggle myToggle;
 myToggle.OnValueChanged.AddListener(MyMethod);
 ```
 
 ### Customizing the Toolkits
 
-The colours and icons of all the toolkits can be changed at once using the **Theme Configurator** (TC). To open the TC, go to **JioMixedReality -> Toolkits Configuration** and click on it. In the TC window which opens, you’ll see 2 sections viz. Colours and Icons. Both these sections have some default values. Let’s take a look at each of these sections.
+The colors and icons of all the toolkits can be changed at once using the **Theme Configurator** (TC). To open the TC, go to **JioMixedReality -> Toolkits Configuration** and click on it. In the TC window which opens, you’ll see 2 sections viz. Colors and Icons. Both these sections have some default values. Let’s take a look at each of these sections.
 
 #### Changing Colors of the UI from Toolkit Configuration
 
-You can change the default colours for each layer by clicking on them, in the Toolkit configuration window.
+You can change the default colors for each layer by clicking on them, in the Toolkit configuration window.
 
 ![Changing default Color](../.gitbook/assets/28.png)
 
-* Let’s change the **Primary Layer** colour to some shade of green.
+* Let’s change the **Primary Layer** color to some shade of green.
 
 ![Changing default Color](../.gitbook/assets/29.png)
 
@@ -93,9 +88,9 @@ You can change the default colours for each layer by clicking on them, in the To
 
 #### Changing Icons of the UI from Toolkit Configuration
 
-Icons provide visual feedback to the user.
+Icons provide a visual feedback to the user.
 
-* In the Icon section on the Toolkit Configuration window, you will see there’s a reference of a Scriptable Object named **SO\_ThemeData**. **(Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\ScriptableObjects\SO\_ThemeData.asset)**
+* In the Icon section on Toolkit Configuration window, you will see there’s a reference of a Scriptable Object named **SO\_ThemeData**. **(Assets\JMRSDK\JMRToolkits\ThemeSystem\ThemeConfiguration\ScriptableObjects\SO\_ThemeData.asset)**
 
 ![Icon scriptable object](../.gitbook/assets/32.png)
 
@@ -113,11 +108,4 @@ Icons provide visual feedback to the user.
 
 ![Changed Icon](../.gitbook/assets/35.png)
 
-## JMRDragable Component
-
-All existing custom-scrolls, sliders and all other draggable objects should have a JMRDraggable.cs script component on them.
-
-1\.  Select ViewPort of existing CustomScrolls or Sliders.
-
-2\.  Add component “JMRDraggable.cs” on it.
-
+##

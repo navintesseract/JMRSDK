@@ -6,25 +6,14 @@ description: Development Platform for developing applications using JMRSDK
 
 JMRSDK supports following Mixed Reality development environments.
 
-### Android Environment
+### Environment
 
-* Android 11
-* Android 12
-* Android 13
+* Android 10
 
-### Unity3D Versions
+### Unity3D
 
-{% hint style="success" %}
-**Recommended Version: 2019.4.40f1**
-{% endhint %}
-
-* 2019.4.16f1+
-* 2020.x
-* 2021.x
-
-{% hint style="info" %}
-This documentation is based on JMRSDK used with Unity 2019.4.40f1
-{% endhint %}
+* 2019.4.3f1
+* TM Pro version - 2.0.1
 
 ### Unreal Engine
 

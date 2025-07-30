@@ -21,7 +21,3 @@ If you don't have pointing ray-enabled controllers, it defaults to GazeManager.
 | GetCursor               | Gets the Cursor object associated with this pointer                                                               |
 | GetCurrentRay           | Gets the current ray                                                                                              |
 | GetCursorTransform      | Gets the transform of the cursor. This is the transform of the white dot that users use to interact with objects. |
-
-{% content-ref url="../../gaze-interaction/gaze-and-dwell.md" %}
-[gaze-and-dwell.md](../../gaze-interaction/gaze-and-dwell.md)
-{% endcontent-ref %}

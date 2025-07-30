@@ -1,48 +1,31 @@
 # Table of contents
 
 * [Tesseract Mixed Reality SDK Documentation](README.md)
-  * [Changelog - 4.32](master/changelog-4.32.md)
-* [Device Information](device-information/README.md)
-  * [Supported Smartphones](device-information/supported-smartphones.md)
-* [Controller Specifications](controller-specifications/README.md)
-  * [Physical Controllers](controller-specifications/physical-controllers.md)
-  * [Virtual Controller / Virtual Keyboard for JioGlass](controller-specifications/virtual-controller-virtual-keyboard-for-jioglass.md)
 
 ## Getting Started
 
 * [Development Platform](getting-started/development-platform.md)
-* [Setting Up A Jio Mixed Reality Project in Unity](getting-started/setting-up-a-jio-mixed-reality-project-in-unity.md)
-* [URP Support](getting-started/urp-support/README.md)
-  * [Setting Up Your Project With URP](getting-started/urp-support/setting-up-your-project-with-urp.md)
-  * [Reverting Back to Built-In Render Pipeline](getting-started/urp-support/reverting-back-to-built-in-render-pipeline.md)
-
-## JMRSDK
-
-* [JMRSDK Content](jmrsdk/jmrsdk-content.md)
-* [JMRMixedReality Prefab](jmrsdk/jmrmixedreality-prefab.md)
-* [System Dock](jmrsdk/system-dock.md)
-* [JMRRig](jmrsdk/jmrrig/README.md)
-  * [Local Rig](jmrsdk/jmrrig/local-rig.md)
-  * [Setting Homepage (Quit functionality)](jmrsdk/jmrrig/setting-homepage-quit-functionality.md)
-  * [Recenter Application on Resume](jmrsdk/jmrrig/recenter-application-on-resume.md)
+* [Setting up a Jio Mixed Reality Project in Unity](getting-started/setting-up-a-jio-mixed-reality-project-in-unity.md)
+* [Setting up System UI configuration](getting-started/setting-up-system-ui-configuration.md)
+* [Companion App for Jio Mixed Reality (JMR) Devices](getting-started/companion-app-for-jio-mixed-reality-jmr-devices.md)
+* [IPD Calibration](getting-started/ipd-calibration.md)
 
 ## Develop
 
-* [Editor Emulator](develop/editor-emulator.md)
 * [JioGlass Controller Interactions](develop/controller-interactions.md)
-* [Cameras](develop/cameras.md)
+* [Editor Emulator](develop/editor-emulator.md)
 * [Jio Mixed Reality UI Toolkits](develop/jio-mixed-reality-ui-toolkits.md)
-* [Examples](develop/examples.md)
+
+## JMRSDK
+
+* [Overview](jmrsdk/overview.md)
+* [JMRMixedReality Prefab](jmrsdk/jmrmixedreality-prefab.md)
+* [JMRRig](jmrsdk/jmrrig/README.md)
+  * [Local Rig](jmrsdk/jmrrig/local-rig.md)
 
 ## Interaction
 
-* [Gaze Interaction](interaction/gaze-interaction/README.md)
-  * [Gaze and Click](interaction/gaze-interaction/gaze-and-click.md)
-  * [Gaze and Dwell](interaction/gaze-interaction/gaze-and-dwell.md)
 * [Interaction](interaction/interaction/README.md)
-  * [JioGlass Lite Interaction](interaction/interaction/jioglass-lite-interaction.md)
-  * [Jio Prism(Holoboard) Interaction](interaction/interaction/jio-prism-holoboard-interaction.md)
-  * [Jio Dive Interaction](interaction/interaction/jio-dive-interaction.md)
   * [Pointer Manager](interaction/interaction/pointer-manager/README.md)
     * [Examples](interaction/interaction/pointer-manager/examples.md)
 * [Interfaces](interaction/interfaces/README.md)
@@ -96,32 +79,18 @@
     * [Get Head Transform](tracking/tracking-framework/trackermanager-methods/get-head-transform.md)
 * [Recenter](tracking/recenter.md)
 
-## Building and Testing
-
-* [Building to Target Device](building-and-testing/publishing-to-target-device/README.md)
-  * [Merging AndroidManifest](building-and-testing/publishing-to-target-device/androidmanifest-update.md)
-  * [Performance Optimization](building-and-testing/publishing-to-target-device/performance-optimization.md)
-* [Companion App For Jio Mixed Reality (JMR) Devices](building-and-testing/companion-app-for-jio-mixed-reality-jmr-devices/README.md)
-  * [Running the application on Prism (Holoboard)](building-and-testing/companion-app-for-jio-mixed-reality-jmr-devices/running-the-application-on-prism-holoboard.md)
-* [IPD Calibration](building-and-testing/ipd-calibration.md)
-
 ## Publish
 
+* [Publishing to Target Device](publish/publishing-to-target-device.md)
 * [Signing App for App Store](publish/signing-apk.md)
-* [Publishing to JioGlass Developer Console](publish/publishing-to-jioglass-developer-console.md)
-* [Developer Console Analytics](publish/developer-console-analytics.md)
 
-## Capturing and Recording
+## Upgrade Guide
 
-* [Capture Videos and Screenshots](capturing-and-recording/capture-videos-screenshot-of-bugs/README.md)
-  * [Capturing Screenshot/Videos using scrcpy](capturing-and-recording/capture-videos-screenshot-of-bugs/capturing-screenshot-videos-using-scrcpy.md)
-  * [Capturing Screenshot/Videos using Vysor](capturing-and-recording/capture-videos-screenshot-of-bugs/capturing-screenshot-videos-using-vysor.md)
+* [Upgrade guide for v4.10](upgrade-guide/upgrade-guide-from-previous-version.md)
+* [AndroidManifest update](upgrade-guide/androidmanifest-update.md)
 
-## Troubleshooting
+## Testing and Troubleshooting
 
-* [FAQs - Develop](troubleshooting/faqs-develop.md)
-* [FAQs - Building to device](troubleshooting/faqs-building-to-device/README.md)
-  * [Gradle](troubleshooting/faqs-building-to-device/gradle.md)
-  * [Old aaptOptions error fix](troubleshooting/faqs-building-to-device/old-aaptoptions-error-fix.md)
-* [FAQs - Running and Publishing](troubleshooting/faqs-running-and-publishing.md)
-* [Laser Point Not Visible](troubleshooting/laser-point-not-visible.md)
+* [Capture Videos/Screenshot of bugs](testing-and-troubleshooting/capture-videos-screenshot-of-bugs/README.md)
+  * [Capturing Screenshot/Videos using scrcpy](testing-and-troubleshooting/capture-videos-screenshot-of-bugs/capturing-screenshot-videos-using-scrcpy.md)
+  * [Capturing Screenshot/Videos using Vysor](testing-and-troubleshooting/capture-videos-screenshot-of-bugs/capturing-screenshot-videos-using-vysor.md)

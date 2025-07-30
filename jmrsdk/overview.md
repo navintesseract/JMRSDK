@@ -6,9 +6,9 @@
 * Prefabs
 * Examples Scenes&#x20;
 
-<div align="left"><img src="../.gitbook/assets/image (31).png" alt="JMRSDK Folder Structure"></div>
+<div align="left"><img src="../.gitbook/assets/image (18).png" alt="JMRSDK Folder Structure"></div>
 
-<div align="left"><img src="../.gitbook/assets/image (1).png" alt="JMRSDK Prefabs"></div>
+<div align="left"><img src="../.gitbook/assets/image (15).png" alt="JMRSDK Prefabs"></div>
 
-<div align="left"><img src="../.gitbook/assets/image (17).png" alt="Example Scenes"></div>
+<div align="left"><img src="../.gitbook/assets/image (22).png" alt="Example Scenes"></div>
 

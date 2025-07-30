@@ -1,57 +1,61 @@
 # Companion App for Jio Mixed Reality (JMR) Devices
 
-## Setting up the Companion App
+### Setting up the Companion App
 
 * Download the latest **JioGlassCompanionApp.apk** build in the format of an android application package (.apk).
 * Install this downloaded application on the testing device which you will be using for further debugging.
+* Click on the **JioGlass** icon in the app drawer (**jioGlass** app) to open it.
 
-## Switching to Holoboard&#x20;
+![](../.gitbook/assets/01.png)
 
-Open JioGlassDev App
-
-![](<../.gitbook/assets/image (27).png>)
-
-Select Holoboard to use Holoboard mode
-
-![](<../.gitbook/assets/image (12).png>)
-
-## Setting up JioGlass App
-
-* Click on the **JioGlass** icon in the app drawer (J**ioGlass** app) to open it.
 * Allow all the permission requested by the companion app
 
-![](<../.gitbook/assets/image (11).png>)
+![](../.gitbook/assets/02.png)
 
 * Allow display over other apps permission and press back
 
-![](<../.gitbook/assets/image (24).png>)
+![](../.gitbook/assets/03.png)
 
 * Enter 'developer@tesseract.in' as email id and the 'JioGlass@123' as a password
 
-![](<../.gitbook/assets/image (3).png>)
+![](../.gitbook/assets/04.png)
 
 * Create profile or select previously created profile
 
-![](<../.gitbook/assets/image (13).png>)
+![](../.gitbook/assets/05.png)
 
-* Tap on Yes as shown below and follow the on-screen instructions to setup your JioGlass App
+* Tap on top right icons to get status of Jio Glass and Controller
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/06.png)
 
-* Once you reach JioGlass Home Screen as shown below, click the button in the centre to start pairing your JioGlass Controller
+* Tap on JioGlass icon to setup your JioGlass
 
-![](../.gitbook/assets/Screenshot_20220128-195834.jpg)
+![](../.gitbook/assets/07.png)
+
+* Once JioGlass is connected, prepare your controller to connect
+
+![](<../.gitbook/assets/12 (1).png>)
 
 * Prepare your controller to connect&#x20;
 
-![](<../.gitbook/assets/image (23).png>)
+![](../.gitbook/assets/09.png)
 
 * Switch on Bluetooth
 
-![](<../.gitbook/assets/image (21).png>)
+![](../.gitbook/assets/10.png)
 
 * Press Home button for 3 second to pair your controller with phone.
 
-![](<../.gitbook/assets/image (32).png>)
+![](../.gitbook/assets/11.png)
 
-* You are now setup and ready to use JioGlass
+* Status of Jio Glass and Controller can be checked by clicking either icon on top right corner.
+
+![](../.gitbook/assets/12.png)
+
+* Switch to Holoboard open JioGlassDev App
+
+<div align="center"><img src="../.gitbook/assets/Screenshot_20210817-144223.jpg" alt=""></div>
+
+* Select Holoboard to use Holoboard mode
+
+![](../.gitbook/assets/Screenshot_20210817-144648.jpg)

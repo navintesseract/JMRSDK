@@ -13,7 +13,7 @@ Interface to handle swipe gestures on the touchpad.
 | OnSwipeUp        | Called when swiped up              |
 | OnSwipeUpdated   | Called when swipe position updates |
 
-```csharp
+```
 using JMRSDK.InputModule;
 using UnityEngine;
 

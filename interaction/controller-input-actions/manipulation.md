@@ -14,7 +14,7 @@ description: Advanced Actions
 * **Sphere**: **IsGrabable**, **IsScalable**
 * **Capsule**: **IsGrabable**, **IsMovable**
 
-![Cube Manipulation Options](<../../.gitbook/assets/12 (1).png>)
+![Cube Manipulation Options](<../../.gitbook/assets/12 (2).png>)
 
 ![Sphere Manipulation Options](../../.gitbook/assets/13.png)
 

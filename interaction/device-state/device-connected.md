@@ -12,7 +12,7 @@ description: When the device is connected
 | index                 | Index of connected device |
 | name                  | Name of connected device  |
 
-To get notified when the device is connected need to implement the callback method exposed through InteractionManager:&#x20;
+To get notified when device is connected need to implement callback method exposed through InteractionManager:&#x20;
 
 OnConnected(JMRInteractionManager.InteractionDeviceType devType, int index, string val)
 
