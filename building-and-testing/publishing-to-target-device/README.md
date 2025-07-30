@@ -4,7 +4,7 @@ description: Steps to follow before every build
 
 # Building to Target Device
 
-In this section, we will look at the steps to build your application for **JioGlass**.
+In this section, we will look at the steps to build your application for **JioDive**.
 
 ## Configuring your Project for the build device
 
@@ -18,16 +18,29 @@ To build for:
 3\. JioDive - Configure for Cardboard
 {% endhint %}
 
-* Ex: For Lite Navigate JioMixedReality -> Manifest -> Configure for LITE as shown below
+* Example: \
+  For Dive, Navigate JioMixedReality -> Manifest -> Configure for Cardboard as shown below
 
-<figure><img src="../../.gitbook/assets/Unity_uTUBVhxgGr.png" alt=""><figcaption><p>Configure for the required device</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Unity_g6MSIa00gd.png" alt=""><figcaption><p>Configure for the required device</p></figcaption></figure>
 
 * Ignore any debug errors if present. You will get a debug log saying Manifest status as completed when the process completes successfully.
 * Your project is now set up to build Applications for JioGlass Lite Ecosystem.
 
+### Configuring Interaction in AndroidManifest
+
+Select all the interactions that the build application will support.
+
+<figure><img src="../../.gitbook/assets/Unity_AnW41zP5OR.png" alt=""><figcaption></figcaption></figure>
+
 ### Adding Category Tag In AndroidManifest
 
-* Find the value corresponding to your application category from the table below -&#x20;
+From JMRSDK 4.32.17+ Category selection has been added in JioMixedReality > Manifest > Configure Category dropdown&#x20;
+
+<figure><img src="../../.gitbook/assets/Unity_ZD9qk0ZJTj.png" alt=""><figcaption></figcaption></figure>
+
+#### Alternative: Manual Method
+
+Find the value corresponding to your application category from the table below -&#x20;
 
 | Category            | Value |
 | ------------------- | ----- |
@@ -76,17 +89,21 @@ Ensure that your Target Device and the Development System are configured to buil
 
 ![](../../.gitbook/assets/40.png)
 
-* Under the **Other Settings** tab, set the **Graphics APIs** to **OpenGLES3 and/or OpenGLES2**, and remove all others.
+* Under the **Other Settings** tab, set the **Graphics APIs** to **Vulkan** and **OpenGLES3 and/or OpenGLES2**.
 
-<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+{% hint style="info" %}
+This might differ if you are using URP, refer to [URP Support](../../getting-started/urp-support/).
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 * Under the **Other Settings** tab, deselect the **Multithreaded Rendering,** if you are using **Camera or Mediaplayer**.
 
-<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
 
-* Under the **Other Settings** tab, set the **Minimum API Level** to **Android 8.0 (API Level 26)** or above and **Target API Level** to **anything above Android 8.0**.
+* Under the **Other Settings** tab, set the **Minimum API Level** to **Android 9.0 (API Level 28)** or above and **Target API Level** to **Android 13.0 (API Level 33)**.
 
-<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Unity_XhOvyrWFdS.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Apply[ Performance optimization](performance-optimization.md) steps for building with the application on the latest arm64 architecture and get the best performance for your application

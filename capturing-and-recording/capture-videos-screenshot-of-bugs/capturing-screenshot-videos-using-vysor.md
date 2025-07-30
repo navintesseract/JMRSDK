@@ -25,6 +25,6 @@
 * Start Companion app to start the services and open the apps made on JMRSDK from your phone or directly from the desktop machine
 * Once done you will see the mirror happening on your desktop machine from where you can easily capture screenshots (Videos, toggle audio, wireless connect are pro features where you need to purchase the Vysor License)
 
-![](<../../.gitbook/assets/10 (1).PNG>)
+![](../../.gitbook/assets/10.PNG)
 
 Note: In order to Vysor work, Android USB debugging should be enabled, ADB Drivers should be installed.

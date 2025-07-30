@@ -8,7 +8,7 @@ Voice is another form of input for the JioGlass device. It allows users to carry
 
 **JMRVoicemanager:** responsible for managing the speech event
 
-![](<../../.gitbook/assets/image (13).png>)
+<figure><img src="../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
 
 | Event                  | Description                               |
 | ---------------------- | ----------------------------------------- |
@@ -19,7 +19,7 @@ Voice is another form of input for the JioGlass device. It allows users to carry
 | OnSpeechIntents        | \[RM1] Called when getting speech intents |
 | OnSpeechError          | Called when any speech error occurs       |
 | OnSpeechCancelled      | Called when speech cancelled              |
-| OnSpeechSessionEnd     | Called when speech ended                  |
+| OnSpeechSessionEnd     | Called when the speech ended              |
 | OnHotwordDetected      | Called when any hot keyword detected      |
 
 ***

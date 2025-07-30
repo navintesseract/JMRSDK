@@ -2,7 +2,7 @@
 
 There are 4 cameras in the JMRMixedReality prefab.
 
-![](<../.gitbook/assets/image (41).png>)
+![](<../.gitbook/assets/image (99).png>)
 
 {% hint style="danger" %}
 The **head** camera is tagged as the main camera and is disabled when running on target device, hence if you are using `Camera.main` in your application, it will return with a null reference exception.
@@ -18,7 +18,7 @@ POV camera is used for casting your application to other devices.&#x20;
 
 <figure><img src="../.gitbook/assets/Screenshot_20230208-123424.jpg" alt=""><figcaption><p>Mono View - Covers the entire screen - Usually rendered by the main *head* camera in unity editor.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Screenshot_20230208-123926 (1).jpg" alt=""><figcaption><p>Stereo View - Split into two views - Rendered by the *left* and *right* cameras.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot_20230208-123926 (2).jpg" alt=""><figcaption><p>Stereo View - Split into two views - Rendered by the *left* and *right* cameras.</p></figcaption></figure>
 
 ## Skybox
 

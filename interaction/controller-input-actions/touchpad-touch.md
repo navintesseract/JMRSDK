@@ -12,11 +12,11 @@ Returns the Vector2 position of the touch coordinates on the trackpad.
 
 Returns (0,0) when the trackpad is not being touched.
 
-When touched in the center the value is **(0.5, 0.5)**
+When touched in the centre the value is **(0.5, 0.5)**
 
-When touched from left to right in horizontal axis keeping center in the vertical axis there is a gradual increase of values from **(0.0, 0.5)** to **(1.0, 0.5).** You can see the values change in the X-Axis of Vector2.
+When touched from left to right on the horizontal axis keeping the centre in the vertical axis there is a gradual increase of values from **(0.0, 0.5)** to **(1.0, 0.5).** You can see the values change in the X-Axis of Vector2.
 
-When Touched from Up to Down through in vertical axis keeping center in the horizontal axis there is a Gradual Increase From **(0.5, 0.0)** to **(0.5, 1.0).** You can see the values change in the Y-Axis of Vector2.
+When Touched from Up to Down through in vertical axis keeping the center in the horizontal axis there is a Gradual Increase From **(0.5, 0.0)** to **(0.5, 1.0).** You can see the values change in the Y-Axis of Vector2.
 
 Anywhere else the value is a combination of the same.
 
