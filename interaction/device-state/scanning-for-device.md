@@ -11,7 +11,7 @@ description: Scanning when device not connected
 | InteractionDeviceType | Type of device connected  |
 | index                 | Index of connected device |
 
-To scan when the device is not connected need to implement callback method exposed through InteractionManager:&#x20;
+To scan when the device is not connected need to implement the callback method exposed through InteractionManager:&#x20;
 
 OnStartScan(JMRInteractionManager.InteractionDeviceType devType, int index)
 

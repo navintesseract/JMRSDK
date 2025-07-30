@@ -1,8 +1,8 @@
 ---
-description: JMRSDK-Beta v4.12.4
+description: JMRSDK v4.33 (LTS for JioDive)
 ---
 
-# Tesseract Mixed Reality SDK Documentation
+# Jio Mixed Reality SDK Documentation
 
 ## Introducing JMRSDK
 
@@ -14,11 +14,15 @@ Jio Mixed Reality SDK (JMRSDK) is Jio's Mixed Reality Platform for developing po
 
 You will find the following features in the latest release -&#x20;
 
+### Universal Render Pipeline
+
+We are happy to announce compatibility with Unity's Universal Render Pipeline to help you show off your gorgeous level designs and bring the overall graphic quality to a whole new level!
+
 ### UI Toolkits
 
-In order to make the Jio Mixed Reality interface consistent and easy for developers to build upon, we have introduced drag-n-drop UI toolkits that can be easily configured to suit their needs while adhering to their brand guidelines.
+To make the Jio Mixed Reality interface consistent and easy for developers to build upon, we have introduced drag-n-drop UI toolkits that can be easily configured to suit their needs while adhering to their brand guidelines.
 
-* Colour System – Allowing developers to customize colors of the toolkits from the menu bar.
+* Colour System – Allowing developers to customize the colours of the toolkits from the menu bar.
 * Icon System – Allowing developers to change icons and text from inspector without disturbing alignment, font, and size on each toolkit
 * Toolkits **-**
   * Canvas
@@ -49,19 +53,20 @@ We have upgraded the Input System to allow more abstractions between the physica
 * Controller Ray – You can now use the JioGlass controller to directly interact with objects in 3D by simply pointing the controller towards objects in your scene.
 * Select between Head and JioGlass Controller from **InputManager** prefab to configure the input source.
 * Introducing Gaze and Dwell from JMRSDK 4.12.4 onwards for enabling hands-free interactions
+* Introducing Gaze and Click from JMRSDK 4.30 onwards for enabling single-click interactions
 
 ### Input Actions
 
-Input actions have been decoupled from the Input source, whether you use a JioGlass controller or in-future, voice! This allows the use of multiple input devices to trigger pre-defined actions at the interaction layer without having to recompile/reimporting the SDK.
+Input actions have been decoupled from the Input source, whether you use a JioGlass controller or in-future, voice! This allows the use of multiple input devices to trigger pre-defined actions at the interaction layer without having to recompile/reimport the SDK.
 
-System Actions includes:
+System Actions include:
 
 * Home – Reserved Home interaction
 * Back – Reserved Back interaction
 * Menu – Reserved Menu interaction for invoking in-app menus. Coming Soon!
 * Recenter – Reserved recentering interaction
 * IPD Calibration – Reserved IPD Calibration toggle.
-* Standard Interaction Actions includes:
+* Standard Interaction Actions include:
   * Focus
   * Select
   * Swipe Up
@@ -80,5 +85,4 @@ We have upgraded the editor emulator to allow you to use the keyboard and mouse 
 
 ## Analytics
 
-Application analytics have now been released since JMRSDK 4.12.4 to track usage of applications on the Jio Mixed Reality platform
-
+Application analytics have now been released JMRSDK 4.12.4 onwards to track usage of applications on the Jio Mixed Reality platform
