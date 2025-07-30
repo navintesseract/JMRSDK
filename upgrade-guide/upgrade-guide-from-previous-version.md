@@ -1,7 +1,14 @@
-# Upgrade guide for v4.10
+# Upgrade guide for v4.13.1
 
 {% hint style="info" %}
 Before importing new package, please delete Packages folder from your project folder, this is probable fix for missing references from SDK prefabs.
+{% endhint %}
+
+{% hint style="danger" %}
+Important notice for users upgrading to JMRSDK 4.12.4+ from any previous versions
+
+* JMRInputField needs to be updated with the new prefab
+* Toolkit v1 has been deprecated from JMRSDK 4.12.4, please upgrade to Toolkit v2 to enjoy latest features and upgrades
 {% endhint %}
 
 ## **JMRDraggable component**
@@ -25,7 +32,7 @@ Go to Asset > JMRSDK > Core > Prefabs > Pointers > JMRLaserPointer and check in 
 3. Set Width Multiplier to **0.04**.
 4. Set Line Number Steps to **20**.
 
-![](<../.gitbook/assets/image (5).png>)
+![](../.gitbook/assets/image.png)
 
 {% hint style="info" %}
 **Mandatory**: Configure System UI in all applications before building your app.
@@ -37,10 +44,10 @@ From menu, select
 
 JioMixedReality > SystemUI > UpdateSortedLayer
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (21).png>)
 
 ## **Recenter Application on Resume**&#x20;
 
 It is set to true by default to recenter the view.
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (19).png>)

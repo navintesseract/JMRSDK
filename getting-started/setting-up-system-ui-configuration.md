@@ -6,4 +6,4 @@ From menu, select
 
 JioMixedReality > SystemUI > UpdateSortingLayer
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (21).png>)

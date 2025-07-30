@@ -5,6 +5,7 @@
 * **Back button** - Single click button for navigation in the application to previous / pause state hierarchy. You are expected to implement the IBackHandler Interface and manage the application flow within your application yourself. Maps to IBackHandler.
 * **Home button** - Single click button that takes the user back to the home screen.
 * **Menu button** - On pressing the home button twice - Double press the button that opens System Menu.
+* **Voice button** - Long pressing back button – Enables voice interaction.
 * **Recentre -** Long press button to recentre head and controller orientation during an application.
 
 ## Global Listener

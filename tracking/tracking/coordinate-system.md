@@ -22,7 +22,7 @@ The positive direction of each axis is also commonly called the forward vector (
 
 This is the first key point of difference where Unity may not match the other software you’re using to make your art. Some 3D packages, like Blender, have defined (at least by default) the positive Z-axis as their up vector.
 
-As you might expect, this can cause unexpected results when transferring 3D objects between programs. Changing the definition of an axis (in this instance, moving the up-axis from Z to Y) will fundamentally change how that data is interpreted. Things tend to go sideways on you!
+As you might expect, this can cause unexpected results when transferring 3D objects between programs. Changing the definition of an axis (in this instance, moving the up axis from Z to Y) will fundamentally change how that data is interpreted. Things tend to go sideways on you!
 
 ## **The difference between left and right-handed systems**
 
@@ -36,13 +36,13 @@ The most common issue that this inverse left/right situation causes is that art 
 
 ## **World (or Universal) space**
 
-World space is the coordinate system for the scene itself. Its origin is in the centre of your scene, and it is to world space that the grid in the editor viewport aligns. You cannot change the direction of this coordinate system. In world space, Y+ is always up, X+ is always right, and Z+ is always forward.
+World space is the coordinate system for the scene itself. Its origin is in the center of your scene, and it is to world space that the grid in the editor viewport aligns. You cannot change the direction of this coordinate system. In world space, Y+ is always up, X+ is always right, and Z+ is always forward.
 
 ## **Local (or Relative) space**
 
 Local space is a coordinate system that is relative to the rotation of a specific object. Its origin is at the pivot point of the object itself, and its axes will change depending on which direction it is facing.
 
-You can think of an object’s local space as its point of view. If your object is upside down, then its relative up axis (still positive Y for the object) would point downwards in world space, but upwards relative to the object. It’s like our hand example from earlier – if you rotate your wrist, all the local axes (represented by your fingers) will follow.
+You can think of an object’s local space like its point of view. If your object is upside down, then its relative up axis (still positive Y for the object) would point downwards in world space, but upwards relative to the object. It’s like our hand example from earlier – if you rotate your wrist, all the local axes (represented by your fingers) will follow.
 
 You can switch your transform tool between coordinate systems by pressing the Toggle Tool Handle Rotation button in the top left of the editor, or by pressing its hotkey ‘x’.
 

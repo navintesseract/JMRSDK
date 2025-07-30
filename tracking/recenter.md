@@ -1,10 +1,10 @@
+---
+description: How to recenter automatically on resume?
+---
+
 # Recenter
 
-## Recenter on Application Resume
-
-To recenter automatically when the application opens or resumes, check the `` Recenter Upon Application Resume` `` in JMRRig -> JMR Tracker Manager.&#x20;
-
-![Scene reference](<../.gitbook/assets/image (46).png>)
+![Scene reference](<../.gitbook/assets/image (38).png>)
 
 | Parameter                           | Description                                     |
 | ----------------------------------- | ----------------------------------------------- |
@@ -48,7 +48,7 @@ JMRSystemActions.Instance.OnRecenterEnd.AddListener(() =>
 });
 ```
 
-## **Recenter Head/Rig Function**
+### **Recenter Head/Rig Function**
 
 #### Exposed a function to recenter game scene anytime
 

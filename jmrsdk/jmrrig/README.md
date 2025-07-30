@@ -2,19 +2,13 @@
 
 ## Introduction to JMR Rig
 
-The JMRRig consists of cameras letting users view the content, known as the JMRRenderer. It consists of 3 cameras. \
-**Head** camera renders only in the editor. \
-The **left and Right** cameras handle rendering in Prism(Holoboard), Dive and JioGlass with a split-screen effect.&#x20;
+The JMRRig consists of cameras that let the users view the content, known as the JMRRenderer. It consists of 3 cameras. Head camera renders only in the editor. The left and Right cameras handle rendering in HoloBoard and JioGlass with a split-screen effect. It also contains the tracking manager which initializes the necessities for tracking the head movement tracking.
 
-It also contains the tracking manager, which initializes the necessities for head movement tracking.
+### What is the purpose of JMR Rig?
 
-### What is the purpose of JMRRig?
-
-* Controls Re-center Location
-* Re-Center on Resume
+* Controls recenter location
+* Recenter on resume
 * Cameras
-
-{% embed url="https://youtu.be/9BSGg-uMYHI?si=YM4889ckPzjK7vZj" %}
 
 ## Rig Manager
 
