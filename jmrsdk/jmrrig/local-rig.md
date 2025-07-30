@@ -22,4 +22,4 @@ In Unity Editor, there is no sensor data to override JMRRig's rotation and hence
 4. Check IsLocalRig to true.
 5. Assign parent transform to the RigParent.
 
-![](<../../.gitbook/assets/image (36).png>)
+![](<../../.gitbook/assets/image (25).png>)

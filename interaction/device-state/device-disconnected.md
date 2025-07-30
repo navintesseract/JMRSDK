@@ -8,7 +8,7 @@
 | index                 | Index of connected device |
 | name                  | Name of connected device  |
 
-To get notified when device is disconnected need to implement callback method exposed through InteractionManager:&#x20;
+To get notified when the device is disconnected need to implement callback method exposed through InteractionManager:&#x20;
 
 OnDisconnected(JMRInteractionManager.InteractionDeviceType devType, int index, string val)
 

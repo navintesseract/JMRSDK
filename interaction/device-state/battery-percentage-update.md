@@ -8,7 +8,7 @@
 | index                 | Index of connected device |
 | percentage            | Percentage of Battery     |
 
-To get notified when battery percentage is updated need to implement the callback method exposed through InteractionManager:&#x20;
+To get notified when the battery percentage is updated need to implement the callback method exposed through InteractionManager:&#x20;
 
 OnBatteryUpdate(JMRInteractionManager.InteractionDeviceType deviceType, int index, int percentage)
 

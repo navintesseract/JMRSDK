@@ -56,7 +56,7 @@ If a custom manifest is added to the project and is not willing to directly repl
     <activity android:name="com.jiotesseract.mr.sdk.JmrUnityActivity" android:label="@string/app_name" android:launchMode="singleTask" android:configChanges="orientation|keyboardHidden|screenSize|screenLayout">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
-        <!--<category android:name="android.intent.category.LAUNCHER" />-->
+        <category android:name="android.intent.category.LAUNCHER" />
         <category android:name="tesseract.intent.category.MR_LAUNCHER" />
       </intent-filter>
       <meta-data android:name="unityplayer.UnityActivity" android:value="true" />

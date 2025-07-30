@@ -2,6 +2,6 @@
 
 An example is worth a thousand hours of work!
 
-We have compiled a repository of examples that you can access via our GitHub repo here - [https://github.com/TMRSDK-Samples](https://github.com/TMRSDK-Samples)
+We have compiled a repository of examples that you can access via our GitHub repo here - [https://github.com/JioGlass-Dev?tab=repositories](https://github.com/JioGlass-Dev?tab=repositories)
 
-Please let us know if you need more!
+Please let us know in case you need more!
