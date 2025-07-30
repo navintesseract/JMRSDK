@@ -4,13 +4,4 @@
 
 ![Keyboard key mapping for Editor Testing](../.gitbook/assets/MicrosoftTeams-image.png)
 
-## Changing Editor Emulator Bindings
-
-To change these bindings go to Assets > JMRSDK > Emulator > Data > SO\_Emulator Current and change the bindings in the scriptable object.\
-\
-
-
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
-
+##

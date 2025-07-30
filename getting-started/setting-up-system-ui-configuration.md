@@ -1,9 +1,9 @@
-# Setting up System UI configuration
+# Setting Up System UI Configuration
 
 &#x20;**Mandatory**: Configure System UI in all applications before building your app.
 
-From menu, select
+From the menu, select
 
-JioMixedReality > SystemUI > UpdateSortingLayer
+_JioMixedReality -> SystemUI -> UpdateSortingLayer_
 
-![](<../.gitbook/assets/image (21).png>)
+![](<../.gitbook/assets/image (24).png>)

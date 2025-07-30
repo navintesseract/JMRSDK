@@ -4,10 +4,6 @@
 
 The **JioGlass Controller** is a **3DoF** controller with 4 programmable buttons and a trackpad.
 
-{% hint style="info" %}
-All the Physical and Virtual Controllers have the same functionalities; you can refer to other controllers in the above section.  [Controller Specs](../controller-specifications/)
-{% endhint %}
-
 ![JioGlass Controller Button Layout](../.gitbook/assets/5.jpeg)
 
 | **State/Items**    | Descriptions                                                                                                                                                                                                                           |

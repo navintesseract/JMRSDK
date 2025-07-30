@@ -8,7 +8,7 @@ Voice is another form of input for the JioGlass device. It allows users to carry
 
 **JMRVoicemanager:** responsible for managing the speech event
 
-<figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 | Event                  | Description                               |
 | ---------------------- | ----------------------------------------- |

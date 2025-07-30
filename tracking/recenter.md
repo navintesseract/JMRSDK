@@ -4,7 +4,7 @@ description: How to recenter automatically on resume?
 
 # Recenter
 
-![Scene reference](<../.gitbook/assets/image (40).png>)
+![Scene reference](<../.gitbook/assets/image (39).png>)
 
 | Parameter                           | Description                                     |
 | ----------------------------------- | ----------------------------------------------- |

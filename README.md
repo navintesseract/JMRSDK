@@ -1,8 +1,8 @@
 ---
-description: JMRSDK v4.38
+description: JMRSDK-Beta v4.24.6
 ---
 
-# Jio Mixed Reality SDK Documentation
+# Tesseract Mixed Reality SDK Documentation
 
 ## Introducing JMRSDK
 
@@ -53,7 +53,6 @@ We have upgraded the Input System to allow more abstractions between the physica
 * Controller Ray – You can now use the JioGlass controller to directly interact with objects in 3D by simply pointing the controller towards objects in your scene.
 * Select between Head and JioGlass Controller from **InputManager** prefab to configure the input source.
 * Introducing Gaze and Dwell from JMRSDK 4.12.4 onwards for enabling hands-free interactions
-* Introducing Gaze and Click from JMRSDK 4.30 onwards for enabling single-click interactions
 
 ### Input Actions
 
@@ -86,3 +85,4 @@ We have upgraded the editor emulator to allow you to use the keyboard and mouse 
 ## Analytics
 
 Application analytics have now been released JMRSDK 4.12.4 onwards to track usage of applications on the Jio Mixed Reality platform
+

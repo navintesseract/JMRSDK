@@ -1,4 +1,4 @@
-# Tesseract Mixed Reality UI Toolkits
+# Jio Mixed Reality UI Toolkits
 
 {% hint style="danger" %}
 * Toolkit v1 has been deprecated from JMRSDK 4.12.4, please upgrade to Toolkit v2 to enjoy the latest features and upgrades
@@ -113,11 +113,4 @@ Icons provide visual feedback to the user.
 
 ![Changed Icon](../.gitbook/assets/35.png)
 
-## JMRDragable Component
-
-All existing custom-scrolls, sliders and all other draggable objects should have a JMRDraggable.cs script component on them.
-
-1\.  Select ViewPort of existing CustomScrolls or Sliders.
-
-2\.  Add component “JMRDraggable.cs” on it.
-
+##

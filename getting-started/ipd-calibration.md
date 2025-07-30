@@ -1,6 +1,6 @@
 # IPD Calibration
 
-IPD stands for **Inter-Pupillary Distance**, which is the distance between your eyes. Since JioGlass Emulator  (Holoboard) and JioGlass are stereoscopic displays, having an incorrect IPD might lead to multiple issues such as either image doubling, blurry visuals or incorrect depth perception of your objects in the scene. In order to make sure that you don't face any such issues or that you can verify the depth placement of your objects in the scene properly, please perform the steps given below to calibrate your IPD while testing.
+IPD stands for **Inter-Pupillary Distance**, which is the distance between your eyes. Since JioGlass Emulator  (Holoboard) and JioGlass are stereoscopic displays, having an incorrect IPD might lead to multiple issues such as image doubling, blurry visuals or incorrect depth perception of your objects in the scene. To make sure that you don't face any such issues or that you can verify the depth placement of your objects in the scene properly, please perform the steps given below to calibrate your IPD while testing.
 
 {% hint style="info" %}
 This step will be performed automatically for consumers, as part of the onboarding experience so you don't have to urge the user to perform this step in your application separately.
@@ -10,11 +10,11 @@ If dual images or blurred visuals are visible on the **JioGlassEmulator**, it is
 
 ## **IPD Calibration**
 
-In Launcher go to settings panel, under "My Profile" click on **Change** button.
+In Launcher go to the settings panel, under "My Profile" click on the **Change** button.
 
 ![](<../.gitbook/assets/MicrosoftTeams-image (3).png>)
 
-After clicking on **Change** button, an instruction card for changing the IPD value will appear
+After clicking on the **Change** button, an instruction card for changing the IPD value will appear
 
 ![](<../.gitbook/assets/MicrosoftTeams-image (2).png>)
 
