@@ -1,0 +1,116 @@
+CommandInvokationFailure: Gradle build failed. 
+C:\Program Files\Unity\Hub\Editor\2022.2.2f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\bin\java.exe -classpath "C:\Program Files\Unity\Hub\Editor\2022.2.2f1\Editor\Data\PlaybackEngines\AndroidPlayer\Tools\gradle\lib\gradle-launcher-7.2.jar" org.gradle.launcher.GradleMain "-Dorg.gradle.jvmargs=-Xmx4096m" "assembleRelease"
+
+Environment Variables:
+RlsSvcPort = 22112
+USERDOMAIN = LAPTOP-22989G9B
+ProgramFiles = C:\Program Files
+TMP = C:\Users\asus\AppData\Local\Temp
+PROCESSOR_ARCHITECTURE = AMD64
+PROCESSOR_REVISION = 6001
+OneDriveConsumer = C:\Users\asus\OneDrive
+OS = Windows_NT
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_21236_WMHCTFQOGXMTWEQX
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
+ProgramW6432 = C:\Program Files
+USERPROFILE = C:\Users\asus
+JAVA_HOME = C:\Program Files\Unity\Hub\Editor\2022.2.2f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK
+CommonProgramFiles = C:\Program Files\Common Files
+DriverData = C:\Windows\System32\Drivers\DriverData
+ComSpec = C:\WINDOWS\system32\cmd.exe
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+ANDROID_NDK_ROOT = C:\Program Files\Unity\Hub\Editor\2022.2.2f1\Editor\Data\PlaybackEngines\AndroidPlayer\NDK
+SystemRoot = C:\WINDOWS
+NUMBER_OF_PROCESSORS = 12
+JAVA_TOOL_OPTIONS = -Dfile.encoding=UTF-8
+BURST_ANDROID_MIN_API_LEVEL = 22
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+HOMEDRIVE = C:
+TEMP = C:\Users\asus\AppData\Local\Temp
+Path = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Users\asus\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\asus\AppData\Local\Programs\Python\Python311\;C:\Users\asus\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\asus\AppData\Local\Programs\Python\Python310\;C:\Users\asus\AppData\Local\Microsoft\WindowsApps;C:\Users\asus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\asus\AppData\Local\Programs\ezrShell;C:\Users\asus\AppData\Roaming\npm;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\libnvvp;C:\Users\asus\AppData\Local\Programs\ezrMShell;C:\Users\asus\.dotnet\tools;C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\bin;
+ACSvcPort = 17532
+USERNAME = asus
+COMPUTERNAME = LAPTOP-22989G9B
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+ALLUSERSPROFILE = C:\ProgramData
+SystemDrive = C:
+windir = C:\WINDOWS
+FPS_BROWSER_USER_PROFILE_STRING = Default
+HOMEPATH = \Users\asus
+PUBLIC = C:\Users\Public
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+APPDATA = C:\Users\asus\AppData\Roaming
+OneDrive = C:\Users\asus\OneDrive
+PROCESSOR_LEVEL = 23
+CommonProgramW6432 = C:\Program Files\Common Files
+ProgramFiles(x86) = C:\Program Files (x86)
+NVIDIAWHITELISTED = 0x01
+SESSIONNAME = Console
+LOGONSERVER = \\LAPTOP-22989G9B
+LOCALAPPDATA = C:\Users\asus\AppData\Local
+SHIM_MCCOMPAT = 0x810000001
+USERDOMAIN_ROAMINGPROFILE = LAPTOP-22989G9B
+ProgramData = C:\ProgramData
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+
+
+stderr[
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* Where:
+Build file 'D:\Dr.Small\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build.gradle' line: 7
+
+* What went wrong:
+A problem occurred evaluating project ':launcher'.
+> No signature of method: build_a6bx4sb0wiq0s6ii4or8iov6u.android() is applicable for argument types: (build_a6bx4sb0wiq0s6ii4or8iov6u$_run_closure2) values: [build_a6bx4sb0wiq0s6ii4or8iov6u$_run_closure2@5ecbe089]
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+A problem occurred configuring project ':launcher'.
+> compileSdkVersion is not specified.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+==============================================================================
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s
+]
+stdout[
+
+> Configure project :
+Build was configured to prefer settings repositories over project repositories but repository 'Google' was added by build file 'build.gradle'
+Build was configured to prefer settings repositories over project repositories but repository 'MavenRepo' was added by build file 'build.gradle'
+Build was configured to prefer settings repositories over project repositories but repository 'BintrayJCenter' was added by build file 'build.gradle'
+Build was configured to prefer settings repositories over project repositories but repository 'maven' was added by build file 'build.gradle'
+Build was configured to prefer settings repositories over project repositories but repository 'maven2' was added by build file 'build.gradle'
+Build was configured to prefer settings repositories over project repositories but repository 'baseNetworkSDK' was added by build file 'build.gradle'
+Build was configured to prefer settings repositories over project repositories but repository 'flatDir' was added by build file 'build.gradle'
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.2/userguide/command_line_interface.html#sec:command_line_warnings
+]
+exit code: 1
+UnityEditor.Android.Command.WaitForProgramToRun (UnityEditor.Utils.Program p, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) (at <78a7f7e9a87745b9a9f63bc62bfdda7d>:0)
+UnityEditor.Android.Command.Run (System.Diagnostics.ProcessStartInfo psi, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) (at <78a7f7e9a87745b9a9f63bc62bfdda7d>:0)
+UnityEditor.Android.Command.Run (System.String command, System.String args, System.String workingdir, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) (at <78a7f7e9a87745b9a9f63bc62bfdda7d>:0)
+UnityEditor.Android.AndroidJavaTools.RunJava (System.String args, System.String workingdir, System.Action`1[T] progress, System.String error) (at <78a7f7e9a87745b9a9f63bc62bfdda7d>:0)
+UnityEditor.Android.GradleWrapper.Run (UnityEditor.Android.AndroidJavaTools javaTools, Unity.Android.Gradle.AndroidGradle androidGradle, System.String workingdir, System.String task, System.Action`1[T] progress) (at <78a7f7e9a87745b9a9f63bc62bfdda7d>:0)
+Rethrow as GradleInvokationException: Gradle build failed
+UnityEditor.Android.GradleWrapper.Run (UnityEditor.Android.AndroidJavaTools javaTools, Unity.Android.Gradle.AndroidGradle androidGradle, System.String workingdir, System.String task, System.Action`1[T] progress) (at <78a7f7e9a87745b9a9f63bc62bfdda7d>:0)
+UnityEditor.Android.PostProcessor.Tasks.BuildGradleProject.Execute (UnityEditor.Android.PostProcessor.PostProcessorContext context) (at <78a7f7e9a87745b9a9f63bc62bfdda7d>:0)
+UnityEditor.Android.PostProcessor.PostProcessRunner.RunAllTasks (UnityEditor.Android.PostProcessor.PostProcessorContext context) (at <78a7f7e9a87745b9a9f63bc62bfdda7d>:0)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr, Boolean&)
