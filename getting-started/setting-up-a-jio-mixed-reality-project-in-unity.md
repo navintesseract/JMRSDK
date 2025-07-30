@@ -11,7 +11,7 @@ This section will help you set up a Project so that you can start developing app
 
 <div align="center"><img src="../.gitbook/assets/0.png" alt="Import-Package"></div>
 
-* Navigate to the folder where you have stored the SDK package and select the file named **JMRSDKv4.1.0.unitypackage** where(for example:) **4.1.0** is the **version** number.
+* Navigate to the folder where you have stored the SDK package and select the JMRSDK-Core package.
 * Once the **Import Unity Package** dialog opens, select **All** at the bottom of the dialog and then select **Import**.
 
 ![Package Contents](../.gitbook/assets/1.png)
@@ -48,4 +48,4 @@ From Menu, select
 
 JioMixedReality > SystemUI > UpdateSortingLayer
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (4).png>)

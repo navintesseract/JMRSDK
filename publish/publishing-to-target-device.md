@@ -12,7 +12,7 @@ In this section we will look at the steps to publish your application for **JioG
 
 ![](../.gitbook/assets/37.png)
 
-* Ensure your scene(s) are added to the **Scenes in Build** section. If not, then open your current scene(s) in unity editor and click on Add Open Scenes under build settings
+* Ensure your scene(s) are added to the **Scenes in Build** section. If not, then open your current scene(s) in unity editor and click on Add Open Scenes under build settings. You can also drag and drop your scene into the build settings window.
 
 ![](../.gitbook/assets/38.png)
 

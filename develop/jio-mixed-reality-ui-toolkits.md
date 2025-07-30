@@ -1,5 +1,10 @@
 # Jio Mixed Reality UI Toolkits
 
+{% hint style="danger" %}
+* Toolkit v1 has been deprecated from JMRSDK 4.12.4, please upgrade to Toolkit v2 to enjoy latest features and upgrades
+* JMRInputField needs to be updated with the new prefab
+{% endhint %}
+
 **Note – It is highly recommended to use the JMRKeyboard in your applications that requires a virtual keyboard. This helps to bring consistency for the end-user and reduces overall cognitive overload while using different applications with keyboards**
 
 Toolkits or **JMRToolkits** are intended to accelerate the development of Applications targeting **JioGlass**. In this section we will learn how to use and customize the Toolkits.
@@ -13,7 +18,7 @@ To add any toolkit to the scene, go to **JioMixedReality -> Toolkits ->** then c
 ![](<../.gitbook/assets/Screenshot (12).png>)
 
 * Alternatively, you can also create your own **Canvas** using **GameObjects -> UI -> Canvas**. Click on **Convert to JMRSDK Canvas**. Change the position to **(0, 0, 5)**. Change the **X**, **Y** and **Z** scale to **0.001**. This scaling step is very important!
-* Let’s add the Button Toolkit to the scene. With **Canvas** **selected** go to **JioMixedReality -> Toolkits -> V1 -> Button**. **JMRUIButton** will be added as a child of **selected GameObject.**
+* Let’s add the Button Toolkit to the scene. With **Canvas** **selected** go to **JioMixedReality -> Toolkits -> V2 -> Button**. **JMRUIButton** will be added as a child of **selected GameObject.**
 
 ![](<../.gitbook/assets/Screenshot (14).png>)
 
@@ -61,7 +66,7 @@ Let’s take a look at another example.
 
 * You can also add **listeners** to this event from other scripts.
 
-```
+```csharp
 public JMRUIToggle myToggle;
 myToggle.OnValueChanged.AddListener(MyMethod);
 ```

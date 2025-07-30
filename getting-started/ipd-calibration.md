@@ -8,22 +8,21 @@ This step will be performed automatically for consumers, as part of the onboardi
 
 If dual images or blurred visuals are visible on the **JioGlassEmulator**, it is because **IPD** has not been set properly for your eyesight. Following are the steps to change the **IPD** settings.
 
-* Configure your scene for JMRSDK and play it.
-* Once inside the scene, press the button for **IPD Calibration** action viz. **App Button Double Press**.
-* This will open the IPD Calibration screen.
-
-![IPD Calibration Screen](../.gitbook/assets/59.png)
-
-* On this screen you will be asked to stretch your hand out with the thumb pointed upwards.
-* Then you will have to swipe up or down on the controller until you see no blurred or dual images.
-* Once done, press the button for **IPD Calibration** action again to close the screen.
-
 ## **IPD Calibration**
 
 In Launcher go to settings panel, under "My Profile" click on **Change** button.
 
 ![](<../.gitbook/assets/MicrosoftTeams-image (3).png>)
 
-After clicking on **Change** button, set your comfortable IPD value.
+After clicking on **Change** button, an instruction card for changing the IPD value will appear
 
 ![](<../.gitbook/assets/MicrosoftTeams-image (2).png>)
+
+* Press the **Trigger** once to enter IPD Calibration mode
+* On this screen you will be asked to stretch your hand out with the thumb pointed upwards.
+* Then you will have to swipe up or down on the controller until you see no blurred or dual images.
+* Once done, press the **Trigger** button again to close the screen and set your IPD
+
+![IPD Calibration Screen](../.gitbook/assets/59.png)
+
+*

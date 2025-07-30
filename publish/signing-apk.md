@@ -10,19 +10,19 @@ To sign an APK for publishing please follow the following steps:
 Always set your version to new updated version while updating your app.
 {% endhint %}
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (15).png>)
 
 2\.       Go to Publishing Settings and Select Keystore Manager.
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (25).png>)
 
 3\.       Select Keystore > Create New > In Dedicated Location to generate a new Keystore.
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (9).png>)
 
 4\.     Select a location to store the Keystore and click Save.
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (8).png>)
 
 5\.       Enter a password for your Keystore. Password must be at least 6 characters long.
 
@@ -30,7 +30,7 @@ Always set your version to new updated version while updating your app.
 **Note:** Make sure to remember the password. **Do not** lose this password.
 {% endhint %}
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (29).png>)
 
 6\.       Enter your Alias, Password, Validity (Keep it 50 years), First and Last Name, Organizational Unity, Organization, City, State, and Country Code.
 
@@ -38,17 +38,17 @@ Always set your version to new updated version while updating your app.
 **Note:** Make sure to remember the password. **Do not** lose this password.
 {% endhint %}
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (28).png>)
 
 7\.       Click on Add Key.
 
 8\.       Select Yes.
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (6).png>)
 
 9\.       Your APK is now signed. You can verify your alias here.
 
-![](<../.gitbook/assets/image (12).png>)
+![](<../.gitbook/assets/image (30).png>)
 
 10\.      **Remember** to increase your version on every consecutive build and to increase your Version Code on every consecutive release on the App Store.
 
