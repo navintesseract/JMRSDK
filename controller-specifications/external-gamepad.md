@@ -28,7 +28,7 @@ By default, JMRSDK maps the select button with the A button (Cross button on Pla
 4\. Flexibility for Developers: Our SDK is designed with you in mind. We've made it easy for you to integrate and customize these functionalities to suit your specific project needs.
 
 {% hint style="danger" %}
-`A` button (Cross button on PlayStation) of the controller is reserved for the select button for interaction.
+A button (Cross button on PlayStation) of the controller is reserved for select button and should not be mapped for gameplay.
 {% endhint %}
 
 ## Integrating the controller
@@ -54,11 +54,11 @@ Copy the below InputManager.asset file and replace it inside Project > ProjectSe
 
 ### Using the Input System
 
-**Input System package** is a newer, more flexible system, which allows you to use any kind of Input Device to control your Unity content. It's intended to be a replacement for Unity's classic Input Manager. To use it, you must [install it into your project using the Package Manager](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.11/manual/Installation.html).
+**Input System package** is a newer, more flexible system, which allows you to use any kind of Input Device to control your Unity content. It's intended to be a replacement for Unity's classic Input Manager. To use it, you must [install it into your project using the Package Manager](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/Installation.html).
 
 #### References
 
-{% embed url="https://docs.unity3d.com/Packages/com.unity.inputsystem@1.11/manual/index.html" %}
+{% embed url="https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/index.html" %}
 
 {% embed url="https://www.youtube.com/watch?ab_channel=Brackeys&v=p-3S73MaDP8" %}
 
@@ -66,16 +66,16 @@ Copy the below InputManager.asset file and replace it inside Project > ProjectSe
 
 #### Jio Game Controller
 
-<figure><img src="../.gitbook/assets/image (115).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
 
 #### Xbox Series X|S Wireless Controller
 
-<figure><img src="../.gitbook/assets/image (116).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
 #### PS4 DualShock 4 Controller
 
-<figure><img src="../.gitbook/assets/image (117).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
 #### PS5 DualSense Controller
 
-<div data-full-width="false"><figure><img src="../.gitbook/assets/image (119).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../.gitbook/assets/image (113).png" alt="" width="375"><figcaption></figcaption></figure></div>

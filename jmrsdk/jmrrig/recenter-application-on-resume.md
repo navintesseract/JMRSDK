@@ -4,4 +4,4 @@
 It is set to true by default to recenter the view.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (56).png>)
+![](<../../.gitbook/assets/image (64).png>)

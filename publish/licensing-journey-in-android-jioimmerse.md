@@ -26,8 +26,6 @@ To create a licensed application, the following steps have to be performed.
 8. Copy the production key from Dev Console and enter it in Editor > Configure License Key popup.
 9. Your application is now licensed.
 
-{% embed url="https://youtu.be/_klWAEmW29o?si=U5b0oPRv9MjmUscm" %}
-
 ### Getting the SHA1 key from Play Console
 
 1.  Goto your application in Play Console\
@@ -36,21 +34,21 @@ To create a licensed application, the following steps have to be performed.
     (**Skip** steps 2 - 3, if a build has been uploaded in this Google Play App before).&#x20;
 2.  Upload a build in the internal testing track.
 
-    <div align="center" data-full-width="false"><figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
+    <div align="center" data-full-width="false"><figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
 3.  Choose the signing key as `Use Google-generated` key for best security.\
 
 
-    <div data-full-width="true"><figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-full-width="true"><figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
 4. Goto Setup > App integrity > App signing\
    Copy the SHA-1 certificate fingerprint to be entered into the Developer Console.
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 ### Setting up licensing in Developer Console
 
 Upload your application SHA1 key from the Play Store and enter it in the Application Signature on the Dev Console.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Get the production licensing key to upload in Unity.&#x20;
 
@@ -59,7 +57,7 @@ Get the production licensing key to upload in Unity.&#x20;
 * Production Key - This key has to be used for licensing the application to be available for users outside your team.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption><p>Generating licensing key</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption><p>Generating licensing key</p></figcaption></figure>
 
 ### Setting up licensing in Unity Editor
 
@@ -69,7 +67,7 @@ To build a licensed application compatible with JioImmerse:
 2. Enter the key in the popup in the Unity editor and hit save.
 3. The application is now licensed. Build the application. &#x20;
 
-<div align="left"><figure><img src="../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Debug Key
 
@@ -88,25 +86,23 @@ To build a licensed application compatible with JioImmerse:
 11. Login into your DemoXR application as a developer with developer console credentials.
 12. Run your application with an active internet connection.
 
-{% embed url="https://youtu.be/W2ocd6hA6Jw?si=LukgdjUTqd42w1IE" %}
-
 ### Getting the Debug Key
 
 1\. Copy the SHA-1 Key from the Google Play Console under the Upload Key certificate.
 
-<figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
 
 2\. Paste the copied SHA -1 key to JioImmerse Developer Console > Application Signature
 
-<figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
 
 3\. Generate and Copy the Debug key from the developer console.
 
-<figure><img src="../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 
 4\. Paste your debug key in Unity > JioMixedReality > Manifest > Configure License Key
 
-<figure><img src="../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 
 5\. Create a build and install it on your device to run directly.
 

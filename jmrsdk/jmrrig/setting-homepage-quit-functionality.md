@@ -14,8 +14,6 @@ On the Home page of the application, please enter via script:
 JMRRigManager.Instance.setHomePage = true;
 ```
 
-{% embed url="https://youtu.be/Yr7v8O6PvNs?si=cgwM49hKCMeYpgk_" %}
-
 Example implementation exposing a function to setup the home page.\
 Using this code it is possible to call Set Home Page whenever you want in the application.
 

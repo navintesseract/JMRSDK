@@ -12,20 +12,30 @@ Suppose you are updating an existing application on the JioGlass Developer Conso
 * For creating an account on Developer Console refer to [this](https://tesseractpvt-my.sharepoint.com/:b:/g/personal/developer_tesseract_in/EUK6YjFqtQBFict7fhQQFkIBMTog1T5J-Ze1C3czU6e9zA?e=3UZpZc).
 * For Jio Prism and Jio Dive, you must only follow Similar Steps but select a Different Platform while creating the App.
 
-<figure><img src="../.gitbook/assets/image (124).png" alt=""><figcaption><p>Create New App</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (118).png" alt=""><figcaption><p>Create New App</p></figcaption></figure>
 
 * Select the Platform and fill in all the details
-  1. Platform: Select the Platform(s) for which you are uploading an app - **Jio Glass Lite, Jio Prism, and JioDive.**
+  1. Platform: Select the Platform you are uploading an App For - **Jio Glass Lite, Jio Prism, and JioDive.**
   2. App Name: Name of the Application.&#x20;
   3. Application type: 3D application.
-  4. Package Name: The package name of the application that you have built the application within Unity.
+  4. Package Name: The package name of the application that you have built the application with in Unity.
 
 <figure><img src="../.gitbook/assets/MicrosoftTeams-image (5).png" alt=""><figcaption><p>Go to Project Settings >> Player >> In Identification >> Package Name</p></figcaption></figure>
 
-{% hint style="success" %}
-If you have already created an app on the console, you cannot change its package name.&#x20;
+{% hint style="info" %}
+For supporting different platforms, you need to make sure that all the platform builds have separate package names.
+{% endhint %}
 
-You do not need to create a new application if you have already created one for some device.
+> Here is an **example** of how you can have different package names for different devices\
+> For JioGlass Lite - com.companyname.appname.Lite \
+> For JioPrism - com.companyname.appname.Prism\
+> For JioDive - com.companyname.appname.Dive
+
+{% hint style="success" %}
+If you have already created an app on the console, you cannot change its package name. \
+Make sure to keep the package names of other platforms different than the existing ones.
+
+You do not need to create a new application if you have already created an application for some device.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/2023-01-16-20-59-57.png" alt=""><figcaption></figcaption></figure>
@@ -34,20 +44,20 @@ You do not need to create a new application if you have already created one for 
 * App Creatives  - Please Upload the App Logo, Thumbnails, and Banners as mentioned in the "Add Creative". Go to Manage >> Upload Creatives. \
   &#x20;
 
-<figure><img src="../.gitbook/assets/image (127).png" alt=""><figcaption><p>Go to Manage >> Store Listing</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (121).png" alt=""><figcaption><p>Go to Manage >> Store Listing</p></figcaption></figure>
 
-{% content-ref url="../building-and-testing/licensing-journey-in-android-jioimmerse.md" %}
-[licensing-journey-in-android-jioimmerse.md](../building-and-testing/licensing-journey-in-android-jioimmerse.md)
+{% content-ref url="licensing-journey-in-android-jioimmerse.md" %}
+[licensing-journey-in-android-jioimmerse.md](licensing-journey-in-android-jioimmerse.md)
 {% endcontent-ref %}
 
-{% content-ref url="../building-and-testing/licensing-journey-in-ios-jioimmerse.md" %}
-[licensing-journey-in-ios-jioimmerse.md](../building-and-testing/licensing-journey-in-ios-jioimmerse.md)
+{% content-ref url="licensing-journey-in-ios-jioimmerse.md" %}
+[licensing-journey-in-ios-jioimmerse.md](licensing-journey-in-ios-jioimmerse.md)
 {% endcontent-ref %}
 
 * Licensing Journey - \
   Android only - Upload your application SHA1 key from Google Play Console in `App Information` section.
 
-<figure><img src="../.gitbook/assets/image (126).png" alt=""><figcaption><p>Enter Application Signature in App Information</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (120).png" alt=""><figcaption><p>Enter Application Signature in App Information</p></figcaption></figure>
 
 * Licensing Journey - Get the key to implement in Unity for licensing.
 
@@ -55,7 +65,7 @@ You do not need to create a new application if you have already created one for 
 iOS - Only Production key works with iOS builds
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption><p>licensing the application</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (53).png" alt=""><figcaption><p>licensing the application</p></figcaption></figure>
 
 ### Screenshots and Visual Representation of App on the Jioverse
 
@@ -78,7 +88,7 @@ Note: The Creatives will be live on the platform only when you upload a build wi
 * In the Build Name section, **Only** mention the "Version" of the Application (which we have defined earlier)
 * Upload the APK and mention the Release notes with the changes you have made in the Latest build of the application. &#x20;
 
-<figure><img src="../.gitbook/assets/image (129).png" alt=""><figcaption><p>Upload the apk</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (123).png" alt=""><figcaption><p>Upload the apk</p></figcaption></figure>
 
 * Make sure to Submit and Publish to send the build for approval.
 

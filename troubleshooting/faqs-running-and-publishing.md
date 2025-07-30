@@ -18,3 +18,10 @@ description: Frequently asked questions related to Running and Publishing
 {% content-ref url="../building-and-testing/publishing-to-target-device/" %}
 [publishing-to-target-device](../building-and-testing/publishing-to-target-device/)
 {% endcontent-ref %}
+
+
+
+## Publishing on Dev Console
+
+### # Application failed auto QA
+

@@ -51,7 +51,7 @@ If a custom manifest is added to the project and is not willing to directly repl
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="${applicationId}" xmlns:tools="http://schemas.android.com/tools" android:installLocation="preferExternal">
   <supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" android:anyDensity="true" />
   <application android:theme="@style/UnityThemeSelector" android:icon="@mipmap/app_icon" android:label="@string/app_name" android:requestLegacyExternalStorage="true" android:screenOrientation="landscape">
-    <meta-data android:name="com.jiotesseract.mr.category" android:value="7" />
+    <meta-data android:name="com.jiotesseract.mr.category" android:value="1" />
     <meta-data android:name="com.jiotesseract.platform" android:value="LITE" />
     <activity android:name="com.jiotesseract.mr.sdk.JmrUnityActivity" android:label="@string/app_name" android:launchMode="singleTask" android:configChanges="orientation|keyboardHidden|screenSize|screenLayout">
       <intent-filter>

@@ -18,7 +18,7 @@ Positional tracking detects the precise position of the head-mounted displays, c
 * Look up and down
 * Pivot left and right
 
-3DoF means learners _cannot_ _move_ throughout the virtual space. However, learners can interact with the environment via gaze control or a laser pointer controller. 3DoF can be useful for practicing job duties that are significant yet sedentary, like navigating difficult conversations with coworkers.
+3DoF means learners _cannot_ _move_ throughout the virtual space. However, learners can interact with the environment via gaze control or a laser pointer controller. 3DoF can be useful for practising job duties that are significant yet sedentary, like navigating difficult conversations with coworkers.
 
 ### 6DoF
 

@@ -18,7 +18,7 @@ To create a licensed application in iOS, the following steps have to be performe
 
 Goto JioImmerse Developer Console and open your iOS application.&#x20;
 
-<figure><img src="../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
 
 Get the production key from the JioImmerse Developer Console.
 
@@ -34,7 +34,7 @@ Create a new field and name it as `LICENSING_KEY`
 
 Enter the Production Key that you got from the JioImmerse Developer Console as the value for the `LICENSING_KEY` field.
 
-<figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
 
 Build and upload your application to Apple Store Connect and JioImmerse Developer Console.\
 Once the application is approved from both ends, the license key will work.

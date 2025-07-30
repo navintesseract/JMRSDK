@@ -24,7 +24,7 @@ public class GetHitInfoExample: MonoBehaviour
 
 > JMRPointerManager.Instance.GetCurrentFocusedObject();
 
-```
+```csharp
 using JMRSDK.InputModule;
 using UnityEngine;
 public class GetCursorFocusedObjectExample: MonoBehaviour, ISelectHandler
@@ -41,7 +41,7 @@ public class GetCursorFocusedObjectExample: MonoBehaviour, ISelectHandler
 
 > JMRPointerManager.Instance.GetCursor ();
 
-```
+```csharp
 using JMRSDK.InputModule;
 using UnityEngine;
 public class GetCurrentFocusedObjectExample: MonoBehaviour
@@ -57,7 +57,7 @@ public class GetCurrentFocusedObjectExample: MonoBehaviour
 
 > JMRPointerManager.Instance.GetCurrentRay();
 
-```
+```csharp
 using JMRSDK.InputModule;
 using UnityEngine;
 public class GetCurrentRayExample: MonoBehaviour
@@ -73,7 +73,7 @@ public class GetCurrentRayExample: MonoBehaviour
 
 > JMRPointerManager.Instance. GetCursorTransform();
 
-```
+```csharp
 using JMRSDK.InputModule;
 using UnityEngine;
 public class GetCursorTransformExample: MonoBehaviour

@@ -5,26 +5,44 @@ description: 'The list of supported Smartphones is given below:'
 # Supported Smartphones
 
 {% tabs %}
-{% tab title="JioGlass" %}
-Here is the list of currently supported JioGlass smartphones:&#x20;
+{% tab title="JioDive" %}
+Here is the list of supported JioDive smartphones:
 
-<table><thead><tr><th width="155">Brand</th><th>Smartphones</th></tr></thead><tbody><tr><td>Samsung<br>(Total - 26)</td><td>Galaxy S24 Ultra<br>Galaxy S24+<br>Galaxy S24<br>Galaxy S23 Ultra<br>Galaxy S23+<br>Galaxy S23 FE<br>Galaxy S23<br>Galaxy S22 Ultra<br>Galaxy S22+<br>Galaxy S22<br>Galaxy S21 FE<br>Galaxy S21 Ultra<br>Galaxy S20 FE 5G<br>Galaxy S21<br>Galaxy Note 20 Ultra<br>Galaxy Note 20<br>Galaxy S21+<br>Galaxy S20+<br>Galaxy S20<br>Galaxy Note 10+<br>Galaxy Note 10<br>Galaxy S20 Ultra<br>Galaxy Z Fold 5<br>Galaxy Z Fold 4<br>Galaxy Z Fold 3<br>Galaxy Z Fold 2</td></tr><tr><td>OnePlus<br>(Total - 9)</td><td>12<br>10 Pro<br>9 Pro<br>9R<br>9<br>8 Pro<br>8T<br>8<br>Open</td></tr><tr><td>Asus<br>(Total - 4)</td><td>ROG Phone 5<br>ROG Phone 5S<br>ROG Phone 3<br>ROG Phone 2</td></tr><tr><td>Google<br>(Total - 2)</td><td>Pixel 9 Pro<br>Pixel 9 Pro XL</td></tr><tr><td>Apple<br>(Total - 8)</td><td>iPhone 16<br>iPhone 16 Plus<br>iPhone 16 Pro<br>iPhone 16 Pro Max<br>iPhone 15<br>iPhone 15 Plus<br>iPhone 15 Pro<br>iPhone 15 Pro Max</td></tr></tbody></table>
-
-Total supported smartphones - 41 Android & 8 iOS
-
-## **JioGlass Requirements for Smartphones**&#x20;
-
-For smartphones to function effectively with JioGlass in Immersive mode, it's essential to ensure the device supports DisplayPort (DP) over USB-C or similar technology. This support allows for video signal transmission, enabling seamless connectivity with JioGlass. Check your smartphone's specifications or consult the manufacturer to confirm DP support.
+| Brand                  | Mobile devices                                                                                                                                                                                                                                                                                                                                                                 |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <p>Xiaomi</p><p> </p>  | <p>Total - <strong>9</strong></p><ol><li>Xiaomi Redmi Note 8</li><li>Xiaomi Redmi Note 8 Pro</li><li>Xiaomi Redmi Note 9 Pro Max</li><li>Xiaomi Redmi Note 10S</li><li>Xiaomi Mi 11i</li><li>Xiaomi Mi 11i Lite NE</li><li>Xiaomi Redmi Note 11 SE</li><li>Xiaomi Mi 11T Pro</li><li>Xiaomi Mi 11 Ultra</li></ol>                                                              |
+| Vivo                   | <p>Total - <strong>6</strong></p><ol><li>Vivo T1</li><li>Vivo S1</li><li>Vivo Y73</li><li>Vivo X80 Pro 5G</li><li>Vivo V25 Pro 5G</li><li>Vivo X50</li></ol>                                                                                                                                                                                                                   |
+| Samsung                | <p>Total - <strong>15</strong></p><ol><li>Samsung M31</li><li>Samsung 22</li><li>Samsung 22+</li><li>Samsung S20+</li><li>Samsung S21 FE</li><li>Samsung S20</li><li>Samsung S21</li><li>Samsung S21+</li><li>Samsung Note 20</li><li>Samsung Note 10</li><li>Samsung S10e</li><li>Samsung A33 5G</li><li>Samsung A73 5G</li><li>Samsung A52s 5G</li><li>Samsung F42</li></ol> |
+| Google                 | <p>Total - <strong>2</strong></p><ol><li>Google Pixel 6 Pro</li><li>Google Pixel 3</li></ol>                                                                                                                                                                                                                                                                                   |
+| <p>OnePlus</p><p> </p> | <p>Total - <strong>14</strong></p><ol><li>OnePlus 10 Pro</li><li>OnePlus 10</li><li>OnePlus 10R</li><li>OnePlus 10T</li><li>OnePlus 9Pro</li><li>OnePlus 9</li><li>OnePlus 9R</li><li>OnePlus 8 Pro</li><li>OnePlus 8</li><li>OnePlus 8T</li><li>OnePlus 7 Pro</li><li>OnePlus 7</li><li>OnePlus Nord CE 2 Lite</li><li>Oneplus Nord CE 5G</li></ol>                           |
+| OPPO                   | <p>Total - <strong>2</strong></p><ol><li>OPPO Find X2</li><li>OPPO Find X3 Pro</li></ol>                                                                                                                                                                                                                                                                                       |
+| Realme                 | <p>Total - <strong>5</strong></p><ol><li>Realme 7</li><li>Realme 6</li><li>Realme GT Master Edition</li><li>Realme GT2 Pro</li><li>Realme Narzo 50 5G</li></ol>                                                                                                                                                                                                                |
+| Others                 | <p>Total - 4</p><ol><li>Nokia 8.1</li><li>iQOO Neo 6 5G</li><li>POCO F1</li><li>POCO M2 Pro</li></ol>                                                                                                                                                                                                                                                                          |
 {% endtab %}
 
-{% tab title="JioDive" %}
-### Check your phone's compatibility - _JioDive_
+{% tab title="JioGlass Lite" %}
+Here is the list of supported JioGlass Lite smartphones:
 
-* JioDive and the JioImmerse apps are compatible with 700+ Android and iOS phone models, of display sizes between 4.7 and 6.7 inches, and are equipped with a gyroscope and an accelerometer.
-* The compatible OS versions are Android 9 or above and iOS 15 or above.
-* To check if your phone is compatible with JioDive, install the JioImmerse app from Google Play Store or Apple App Store, go to the profile section, and click on 'Phone Compatibility'.
-
-{% embed url="https://www.jio.com/dive/device-compatibility" %}
+OnePlus 10 Pro  \
+OnePlus 9R  \
+OnePlus 9 \
+OnePlus 8T \
+OnePlus 8 \
+OnePlus 9 Pro \
+OnePlus 8 Pro \
+Samsung S22+ \
+Samsung S22 \
+Samsung S21 \
+Samsung S21 Ultra 5G\
+Samsung Note20 Ultra 5g \
+Samsung S22 Ultra \
+Samsung Note20\
+Samsung S21 FE \
+Samsung S20+ \
+Samsung S20 FE \
+Samsung Galaxy S20 \
+Samsung Note 10+ \
+Samsung S21+
 {% endtab %}
 {% endtabs %}
 

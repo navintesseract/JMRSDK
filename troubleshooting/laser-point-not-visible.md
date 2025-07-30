@@ -2,8 +2,6 @@
 
 ## **Laser Pointer not visible fix**
 
-{% embed url="https://youtu.be/TXYh_zZJk20?si=KRWYwWFD3MvjP2NL" %}
-
 If Pointer does not appear after importing, please follow the steps given in LaserRayFix
 
 Go to Asset > JMRSDK > Core > Prefabs > Pointers > JMRLaserPointer and check in the inspector.
@@ -13,7 +11,7 @@ Go to Asset > JMRSDK > Core > Prefabs > Pointers > JMRLaserPointer and check in 
 3. Set Width Multiplier to **0.04**.
 4. Set Line Number Steps to **20**.
 
-![](<../.gitbook/assets/image (77).png>)
+![](<../.gitbook/assets/image (71).png>)
 
 See also:
 

@@ -6,7 +6,7 @@ Interface to handle **Voice Button** interaction.
 | ------------- | -------------------------------------------------------------------- |
 | OnVoiceAction | Called when voice action is performed (on long pressing back button) |
 
-```
+```csharp
 using JMRSDK.InputModule;
 using UnityEngine;
 public class InterfaceExample: MonoBehaviour, IVoiceHandler

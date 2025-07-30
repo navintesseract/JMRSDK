@@ -16,12 +16,13 @@ Assuming that you have created your Apple developer account. If not, then check 
 
 ![](../.gitbook/assets/Unity_vjs9waV5V7.png)
 
-Goto Unity > Build Settings > Set the orientation to Auto Rotation.\
-**Select Landscape Right and Portrait**&#x20;
+Goto Unity > Build Settings > Set the orientation to Landscape left.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Unity_PCskyIRrAx.png" alt=""><figcaption></figcaption></figure>
 
 In Build settings > Other settings > Identification > Enable Automatically Sign
+
+In Microphone Usage Description > Write "Required"
 
 Set the Target device to "iPhone only"
 
@@ -57,8 +58,8 @@ Select the team signing from the signing and bundle, after selecting the "All" t
 
 ## Licensing your iOS Application to work with JioImmerse
 
-{% content-ref url="../building-and-testing/licensing-journey-in-ios-jioimmerse.md" %}
-[licensing-journey-in-ios-jioimmerse.md](../building-and-testing/licensing-journey-in-ios-jioimmerse.md)
+{% content-ref url="licensing-journey-in-ios-jioimmerse.md" %}
+[licensing-journey-in-ios-jioimmerse.md](licensing-journey-in-ios-jioimmerse.md)
 {% endcontent-ref %}
 
 ## Building and publishing the app

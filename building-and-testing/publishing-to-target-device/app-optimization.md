@@ -63,7 +63,7 @@ Change the quality setting to low.
 Additionally, the quality settings can be optimized to perform on mobile devices and be interchanged depending on device performance.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption><p>Example of quality setting on low end devices</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption><p>Example of quality setting on low end devices</p></figcaption></figure>
 
 ### Optimizing Terrain Settings
 
@@ -73,7 +73,7 @@ Additionally, the quality settings can be optimized to perform on mobile devices
 * Reduce all texture size
 * Reduce detail distance
 
-<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption><p>Example of terrain setting on low end devices</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption><p>Example of terrain setting on low end devices</p></figcaption></figure>
 
 
 
