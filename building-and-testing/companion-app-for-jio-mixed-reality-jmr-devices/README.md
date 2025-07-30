@@ -1,4 +1,4 @@
-# JioImmerse App For Jio Mixed Reality (TMR) Devices
+# JioImmerse App For Jio Mixed Reality (JMR) Devices
 
 Setting Up The Companion App
 

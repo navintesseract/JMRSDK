@@ -1,10 +1,8 @@
 # Table of contents
 
 * [Jio Mixed Reality SDK Documentation](README.md)
-  * [Changelog 4.33.0](master/changelog-4.33.0/README.md)
-    * [Upgrade Guide 4.33.0](master/changelog-4.33.0/upgrade-guide-4.33.0.md)
-  * [Changelog 4.33.13](master/changelog-4.33.13/README.md)
-    * [Upgrade Guide 4.33.13](master/changelog-4.33.13/upgrade-guide-4.33.13.md)
+  * [Changelog 4.34.1](master/changelog-4.34.1/README.md)
+    * [Upgrade Guide 4.34.1](master/changelog-4.34.1/upgrade-guide-4.34.1.md)
 * [Device Information](device-information/README.md)
   * [Supported Smartphones](device-information/supported-smartphones.md)
 * [Controller Specifications](controller-specifications/README.md)
@@ -98,19 +96,20 @@
 
 ## Building and Testing
 
+* [Branding Guidelines](building-and-testing/branding-guidelines.md)
 * [Building to Target Device](building-and-testing/publishing-to-target-device/README.md)
   * [Merging AndroidManifest](building-and-testing/publishing-to-target-device/androidmanifest-update.md)
   * [Performance Optimization](building-and-testing/publishing-to-target-device/performance-optimization.md)
   * [App optimization](building-and-testing/publishing-to-target-device/app-optimization.md)
-* [JioImmerse App For Jio Mixed Reality (TMR) Devices](building-and-testing/companion-app-for-jio-mixed-reality-jmr-devices/README.md)
+* [JioImmerse App For Jio Mixed Reality (JMR) Devices](building-and-testing/companion-app-for-jio-mixed-reality-jmr-devices/README.md)
   * [Running the application on Prism (Holoboard)](building-and-testing/companion-app-for-jio-mixed-reality-jmr-devices/running-the-application-on-prism-holoboard.md)
 * [IPD Calibration](building-and-testing/ipd-calibration.md)
 
 ## Publish
 
-* [Licensing Journey](publish/licensing-journey.md)
+* [Licensing Journey In JioImmerse](publish/licensing-journey-in-jioimmerse.md)
 * [Signing App for App Store](publish/signing-apk.md)
-* [Publishing to JioGlass Developer Console](publish/publishing-to-jioglass-developer-console.md)
+* [Publishing to JioImmerse Developer Console](publish/publishing-to-jioimmerse-developer-console.md)
 * [Publishing to Google Play Store](publish/publishing-to-google-play-store/README.md)
   * [Play Store Upload Journey](publish/publishing-to-google-play-store/play-store-upload-journey.md)
 

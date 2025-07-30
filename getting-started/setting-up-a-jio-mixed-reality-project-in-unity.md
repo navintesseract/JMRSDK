@@ -34,7 +34,7 @@ After you have imported JMRSDK, you will see a new **JioMixedReality** menu on t
   1. Go to **GameObject -> 3D Object -> Cube**
   2. Set the position of this **Cube** to **(0, 0, 5)**.
 
-![Add Cube to the scene](<../.gitbook/assets/4 (1).png>)
+![Add Cube to the scene](<../.gitbook/assets/4 (2).png>)
 
 * You can now follow the instructions in the **Publishing** section to build your first application for your **Target Device**.
 * Once you run the application on **JioGlass**, you will notice the **Cube** floating somewhere around you. (You might have to look around to find it! OR you can **long-press** the **Home Button** to **Recenter** the screen which will bring the **Cube** in front of you). Have a look at the controller interactions to get an idea of how to use the JioGlass controller.

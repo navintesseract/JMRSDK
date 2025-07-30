@@ -26,7 +26,7 @@ If your application size is more than 150 MB, you need to check the split applic
 
 Select Build App Bundle (Google Play) as the play store does not allow publishing of apk.
 
-<figure><img src="../../.gitbook/assets/Build Settings.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Build Settings (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Note for Publishing on Play Store with JMRSDK
 
@@ -44,4 +44,4 @@ The application has to be on closed beta testing with **ittesseract@gmail.com** 
 On Tesseract's approval, the application shall further be asked to shift to a different track.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>

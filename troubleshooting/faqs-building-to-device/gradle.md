@@ -4,13 +4,7 @@
 
 The following table shows the compatibility between Gradle version and Unity version.
 
-| Unity version                                                                                             | Gradle version | Android Gradle Plugin version |
-| --------------------------------------------------------------------------------------------------------- | -------------- | ----------------------------- |
-| 2023.1, 2023.2                                                                                            | 7.6            | 7.3.1                         |
-| 2022.2                                                                                                    | 7.2            | 7.1.2                         |
-| <p>2022.1<br>2021.3<br>2021.2<br>2021.1 starting from 2021.1.16f1<br>2020.3 starting from 2020.3.15f1</p> | 6.1.1          | 4.0.1                         |
-| <p>2021.1 up to and including 2021.1.15f1<br>2020.1, 2020.2, 2020.3 up to and including 2020.3.14f1</p>   | 5.6.4          | 4.0.1                         |
-| 2019.4                                                                                                    | 5.1.1          | 3.4.0                         |
+<table><thead><tr><th width="334.3333333333333">Unity version</th><th width="151">Gradle version</th><th>Android Gradle Plugin version</th></tr></thead><tbody><tr><td>2023.1, 2023.2</td><td>7.6</td><td>7.3.1</td></tr><tr><td>2022.2, 2022.3</td><td>7.2</td><td>7.1.0</td></tr><tr><td>2022.1<br>2021.2, 2021.3<br>2021.1 starting from 2021.1.16f1<br>2020.3 starting from 2020.3.15f1</td><td>6.1.1</td><td>4.0.1</td></tr><tr><td>2021.1 up to and including 2021.1.15f1<br>2020.1, 2020.2<br>2020.3 up to and including 2020.3.14f1</td><td>5.6.4</td><td>4.0.1</td></tr><tr><td>2019.4</td><td>5.1.1</td><td>3.4.3</td></tr></tbody></table>
 
 {% embed url="https://docs.unity3d.com/2023.2/Documentation/Manual/android-gradle-overview.html" %}
 
@@ -33,13 +27,13 @@ While building if you get Gradle Build failure, you will get multiple error logs
 For getting the reason you need to refer to CommandInvocationFailure in Build failed logs
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption><p>CommandInvocationFailure in unity console</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>CommandInvocationFailure in unity console</p></figcaption></figure>
 
 ###
 
 ### #1 Error: uses-sdk:minSdkVersion 'x' cannot be smaller than version 26 declared in library
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 JMRSDK has a dependency on SDK version 26 and hence build will fail when the minimum API version specified in project settings will be smaller than version 26.
@@ -47,13 +41,13 @@ JMRSDK has a dependency on SDK version 26 and hence build will fail when the min
 
 **Fix:** Make sure that the minimum API level is set to 26 and the target API level is set to 29 or higher.
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 
 
 ### #2 Error: Could not get unknown property 'vstsMavenAccessToken' for Credentials \[username: tesseractimg].
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 There are dependencies of the Gradle properties template on the base Gradle template.&#x20;
@@ -61,15 +55,15 @@ There are dependencies of the Gradle properties template on the base Gradle temp
 
 **Fix:** Make sure to select all the publishing build settings correctly as shown in the image below.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 
 
 
 ### #3 Error: Keystore passwords incorrect
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption><p>Project Keystore incorrect</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p>Project Keystore incorrect</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption><p>Project Key password was incorrect</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption><p>Project Key password was incorrect</p></figcaption></figure>
 
 
 
