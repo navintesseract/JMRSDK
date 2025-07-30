@@ -47,11 +47,11 @@ Get the App Store ID by going into your application, when uploaded on Test Fligh
 
 Get the Team ID for Generating GoogleService-info.plist in next step
 
-<figure><img src="../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
 
 Download the GoogleService-Info.plist
 
-<figure><img src="../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
 
 ### Xcode I
 
@@ -127,7 +127,7 @@ In the above Associated Domains replace _<mark style="color:yellow;">pagelink</m
 
 Goto Unity-iPhone > Info > URL Types > URL Schemes and clear it.
 
-<figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
 Now create another build of your application and publish it to the App Store
 

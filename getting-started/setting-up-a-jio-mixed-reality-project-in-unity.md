@@ -1,4 +1,4 @@
-# Setting Up A Jio Mixed Reality Project in Unity
+# Setting Up Jio Mixed Reality Project in Unity
 
 This section will help you set up a Project so that you can start developing applications using **JMRSDK**. You will need [Unity Game Engine](development-platform.md#unity3d-versions) and the latest version of the JMRSDK package.&#x20;
 

@@ -14,7 +14,7 @@ This feature is recommended for only a few applications where the objective is t
 
 * Select the Pointer source and gaze mode from the editor inside the input manager.
 
-<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 * Drag and drop `JMRGazeInteractable.cs` to use the default Gaze and Dwell features. For example, 3d objects,2d objects, UI elements, etc.; for more information, refer to the Example scene.
 

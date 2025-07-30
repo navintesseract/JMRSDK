@@ -21,12 +21,6 @@ description: Frequently asked questions related to Running and Publishing
 
 
 
-### # JioGlass app is rendering upside down in Holoboard.
-
-
-
-
-
 ## Publishing on Dev Console
 
 ### # Application failed auto QA

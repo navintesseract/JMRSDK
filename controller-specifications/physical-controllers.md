@@ -8,8 +8,6 @@ description: >-
 
 There are multiple supported controllers for JioGlass Ecosystem.&#x20;
 
-<table><thead><tr><th>Compatability</th><th data-type="checkbox">Physical Controller</th></tr></thead><tbody><tr><td>JioGlass</td><td>false</td></tr><tr><td>JioDive</td><td>true</td></tr><tr><td>JioPrism</td><td>true</td></tr></tbody></table>
-
 ## JioGlass Controller V3
 
 {% hint style="info" %}
@@ -23,14 +21,14 @@ You can use this controller with JioPrism (Holoboard) and JioDive.
 
 ## JioGlass Controller v2&#x20;
 
-<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption><p>JioPrism Controller render</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption><p>JioPrism Controller render</p></figcaption></figure>
 
 This controller is supported by Android 10, 11, 12, and 13. \
 You can use this controller with JioPrism (Holoboard) and JioDive.
 
 ## JioGlass Controller  v1
 
-<img src="../.gitbook/assets/image (81).png" alt="K07 Controller" data-size="original">
+<img src="../.gitbook/assets/image (71).png" alt="K07 Controller" data-size="original">
 
 This controller works with Android 11. \
 You can use this controller with JioPrism (Holoboard) and JioDive.

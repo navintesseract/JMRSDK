@@ -18,11 +18,6 @@ Controller provides the functionality to interact with the application and for u
 
 ## Interaction Compatibility
 
-Compatibility of Interaction with Platform for **JioDive**
+Compatibility of Interaction with Platform for JioDive
 
-<table><thead><tr><th>JioDive</th><th data-type="checkbox">Android</th><th data-type="checkbox">iOS</th></tr></thead><tbody><tr><td>Gaze and Dwell</td><td>true</td><td>true</td></tr><tr><td>Gaze and Click</td><td>true</td><td>true</td></tr><tr><td>Controller</td><td>true</td><td>false</td></tr><tr><td>Virtual Controller</td><td>false</td><td>false</td></tr><tr><td>Gamepad</td><td>true</td><td>true</td></tr></tbody></table>
-
-Compatibility of Interaction with Platform for **JioGlass**
-
-<table><thead><tr><th>JioGlass</th><th data-type="checkbox">Android</th><th data-type="checkbox">iOS</th></tr></thead><tbody><tr><td>Gaze and Dwell</td><td>true</td><td>false</td></tr><tr><td>Gaze and Click</td><td>false</td><td>false</td></tr><tr><td>Controller</td><td>false</td><td>false</td></tr><tr><td>Virtual Controller</td><td>true</td><td>false</td></tr><tr><td>Gamepad</td><td>true</td><td>false</td></tr></tbody></table>
-
+<table><thead><tr><th>JioDive</th><th data-type="checkbox">Android</th><th data-type="checkbox">iOS</th></tr></thead><tbody><tr><td>Controller</td><td>true</td><td>false</td></tr><tr><td>Gaze and Click</td><td>true</td><td>true</td></tr><tr><td>Gaze and Dwell</td><td>true</td><td>true</td></tr></tbody></table>

@@ -17,7 +17,7 @@ Make sure all of these are checked in the project settings > publishing settings
 * Custom Base Gradle Template
 * Custom Gradle Properties Template
 
-<div align="left"><figure><img src="../.gitbook/assets/Unity_aWDY7BNNSJ (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/Unity_aWDY7BNNSJ (2).png" alt=""><figcaption></figcaption></figure></div>
 
 #### Solution 2: Using the correct canvas&#x20;
 
@@ -32,7 +32,20 @@ This issue usually occurs when the files are not properly imported into the proj
 1\. Delete the folder inside the Assets >> Plugins >> Android \
 2\. Re-import the JMRSDK plugins folder.
 
+#### Solution 4: Nomenclature of GameObjects
 
+1. Make sure that your gameobjects are not named as "Head" or "Left" or "Right" other than the ones present in JMRMixedReality prefab by default.
+2. Make sure that only "Head" Camera is tagged as "MainCamera".
+
+### # Dive Barrel Distortion Shader is not working properly
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>This is the expected Barrel Distortion Shader for JioDive</p></figcaption></figure>
+
+If using properly, follow the URP guide to set it up properly
+
+{% content-ref url="../getting-started/urp-support/setting-up-your-project-with-urp.md" %}
+[setting-up-your-project-with-urp.md](../getting-started/urp-support/setting-up-your-project-with-urp.md)
+{% endcontent-ref %}
 
 ### # Layer not rendering
 
@@ -52,7 +65,7 @@ Default behavior: Layer number 13 is used internally for the screen casting. So 
 
 Layer "Left" and Layer "Right" does not render on respective cameras so you can use these layers if you want to render some object only on some particular camera.
 
-<figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption><p>Unity - NOT in Play Mode</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption><p>Unity - NOT in Play Mode</p></figcaption></figure>
 
 
 
@@ -87,25 +100,9 @@ These are the debug logs/warnings/errors to be <mark style="color:orange;">**ign
 
 1. `Cannot destroy GameObject that is part of a prefab instance.`
 
-<figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
 
 2. `NullReferenceException: Object reference not set to an instance of an object JMRSDK.JMRCameraManager.OnEnable ()`&#x20;
-3. `Casting API instance is null UnityEngine.Debug:LogError (object) JMRSDK.JMRScreenCastManager:GetCastingState ()`
-4. `RegisterCallback : Camera API is Null` \
-   `UnityEngine.Debug:LogError (object)`
-5. `Casting API instance is null` \
-   `UnityEngine.Debug:LogError (object)`
-6. `NullReferenceException: Object reference not set to an instance of an object ScreenCasting.ScreenCastHandler.b__52_0 (System.Boolean isConnected) (at Assets/JMRSDK/Screencast/ScreenCastHandler.cs:664) ScreenCasting.ScreenCastHandler+d__54.MoveNext () (at Assets/JMRSDK/Screencast/ScreenCastHandler.cs:722)`
-
-{% hint style="danger" %}
-Note: Debug error 6 arises once every 3 seconds
-{% endhint %}
-
-{% hint style="success" %}
-Hiding these errors:\
-Debug Error 2,3,4,5,6 are related to screen casting. If you want to hide these errors for development purposes, disable `JMRCamera Manager.`\
-![](<../.gitbook/assets/image (50).png>)
-{% endhint %}
 
 
 
@@ -129,8 +126,8 @@ To fix that, physically move the objects further apart
 
 Refer to this:
 
-{% content-ref url="../interaction/gaze-and-dwell.md" %}
-[gaze-and-dwell.md](../interaction/gaze-and-dwell.md)
+{% content-ref url="../interaction/gaze-interaction/gaze-and-dwell.md" %}
+[gaze-and-dwell.md](../interaction/gaze-interaction/gaze-and-dwell.md)
 {% endcontent-ref %}
 
 
@@ -139,8 +136,8 @@ Refer to this:
 
 You can get the pointing source from JMRPointerManager. Refer to this:
 
-{% content-ref url="../interaction/gaze-and-dwell.md" %}
-[gaze-and-dwell.md](../interaction/gaze-and-dwell.md)
+{% content-ref url="../interaction/gaze-interaction/gaze-and-dwell.md" %}
+[gaze-and-dwell.md](../interaction/gaze-interaction/gaze-and-dwell.md)
 {% endcontent-ref %}
 
 
@@ -185,6 +182,10 @@ JioCardboard = JioDive - Physical Controller
 
 Refer to [Skybox](../develop/cameras.md#skybox) in AR devices
 
+{% hint style="info" %}
+The same method can be used to change the far clipping distance of cameras as well.
+{% endhint %}
+
 
 
 ### # How to change FOV in devices
@@ -216,4 +217,3 @@ IEnumerator ChangeFOV()
     head.fov = left.fov = right.fov = targetFOV;
 }
 ```
-

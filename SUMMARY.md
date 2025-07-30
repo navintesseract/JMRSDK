@@ -1,17 +1,18 @@
 # Table of contents
 
-* [Tesseract Mixed Reality SDK Documentation](README.md)
-  * [Changelog - 4.27.10](master/changelog-4.27.10.md)
+* [Jio Mixed Reality SDK Documentation](README.md)
+  * [Changelog 4.35.8](master/changelog-4.35.8/README.md)
+    * [Upgrade Guide 4.35.8](master/changelog-4.35.8/upgrade-guide-4.35.8.md)
 * [Device Information](device-information/README.md)
-  * [Device Specification](device-information/device-specification.md)
-  * [Controller Specifications](device-information/controller-specifications/README.md)
-    * [Physical Controllers](device-information/controller-specifications/physical-controllers.md)
-    * [Virtual Controller / Virtual Keyboard for JioGlass](device-information/controller-specifications/virtual-controller-virtual-keyboard-for-jioglass.md)
+  * [Supported Smartphones](device-information/supported-smartphones.md)
+* [Controller Specifications](controller-specifications/README.md)
+  * [Physical Controllers](controller-specifications/physical-controllers.md)
+  * [Virtual Controller / Virtual Keyboard for JioGlass](controller-specifications/virtual-controller-virtual-keyboard-for-jioglass.md)
 
 ## Getting Started
 
 * [Development Platform](getting-started/development-platform.md)
-* [Setting Up A Jio Mixed Reality Project in Unity](getting-started/setting-up-a-jio-mixed-reality-project-in-unity.md)
+* [Setting Up Jio Mixed Reality Project in Unity](getting-started/setting-up-a-jio-mixed-reality-project-in-unity.md)
 * [URP Support](getting-started/urp-support/README.md)
   * [Setting Up Your Project With URP](getting-started/urp-support/setting-up-your-project-with-urp.md)
   * [Reverting Back to Built-In Render Pipeline](getting-started/urp-support/reverting-back-to-built-in-render-pipeline.md)
@@ -20,6 +21,7 @@
 
 * [JMRSDK Content](jmrsdk/jmrsdk-content.md)
 * [JMRMixedReality Prefab](jmrsdk/jmrmixedreality-prefab.md)
+* [System Dock](jmrsdk/system-dock.md)
 * [JMRRig](jmrsdk/jmrrig/README.md)
   * [Local Rig](jmrsdk/jmrrig/local-rig.md)
   * [Setting Homepage (Quit functionality)](jmrsdk/jmrrig/setting-homepage-quit-functionality.md)
@@ -30,30 +32,29 @@
 * [Editor Emulator](develop/editor-emulator.md)
 * [JioGlass Controller Interactions](develop/controller-interactions.md)
 * [Cameras](develop/cameras.md)
-* [Jio Mixed Reality UI Toolkits](develop/jio-mixed-reality-ui-toolkits.md)
+* [Tesseract Mixed Reality UI Toolkits](develop/jio-mixed-reality-ui-toolkits.md)
 * [Examples](develop/examples.md)
 
 ## Interaction
 
-* [Gaze and Dwell](interaction/gaze-and-dwell.md)
+* [Gaze Interaction](interaction/gaze-interaction/README.md)
+  * [Gaze and Click](interaction/gaze-interaction/gaze-and-click.md)
+  * [Gaze and Dwell](interaction/gaze-interaction/gaze-and-dwell.md)
 * [Interaction](interaction/interaction/README.md)
-  * [JioGlass Lite Interaction](interaction/interaction/jioglass-lite-interaction.md)
-  * [Jio Prism(Holoboard) Interaction](interaction/interaction/jio-prism-holoboard-interaction.md)
-  * [Jio Dive Interaction](interaction/interaction/jio-dive-interaction.md)
   * [Pointer Manager](interaction/interaction/pointer-manager/README.md)
     * [Examples](interaction/interaction/pointer-manager/examples.md)
 * [Interfaces](interaction/interfaces/README.md)
+  * [IFocusable](interaction/interfaces/ifocusable.md)
   * [ISelectHandler](interaction/interfaces/iselecthandler.md)
   * [ISelectClickHandler](interaction/interfaces/iselectclickhandler.md)
-  * [IFocusable](interaction/interfaces/ifocusable.md)
-  * [ISwipeHandler](interaction/interfaces/iswipehandler.md)
-  * [ITouchHandler](interaction/interfaces/itouchhandler.md)
   * [IBackHandler](interaction/interfaces/ibackhandler.md)
   * [IHomeHandler](interaction/interfaces/ihomehandler.md)
   * [IMenuHandler](interaction/interfaces/imenuhandler.md)
-  * [IVoiceHandler](interaction/interfaces/ivoicehandler.md)
   * [IFn1Handler](interaction/interfaces/ifn1handler.md)
   * [IFn2Handler](interaction/interfaces/ifn2handler.md)
+  * [ITouchHandler](interaction/interfaces/itouchhandler.md)
+  * [ISwipeHandler](interaction/interfaces/iswipehandler.md)
+  * [IVoiceHandler](interaction/interfaces/ivoicehandler.md)
   * [IManipulationHandler](interaction/interfaces/imanipulationhandler.md)
 * [Controller Input Actions](interaction/controller-input-actions/README.md)
   * [Touchpad - Touch](interaction/controller-input-actions/touchpad-touch.md)
@@ -95,18 +96,24 @@
 
 ## Building and Testing
 
+* [Branding Guidelines](building-and-testing/branding-guidelines.md)
 * [Building to Target Device](building-and-testing/publishing-to-target-device/README.md)
   * [Merging AndroidManifest](building-and-testing/publishing-to-target-device/androidmanifest-update.md)
   * [Performance Optimization](building-and-testing/publishing-to-target-device/performance-optimization.md)
-* [Companion App For Jio Mixed Reality (JMR) Devices](building-and-testing/companion-app-for-jio-mixed-reality-jmr-devices/README.md)
+  * [App optimization](building-and-testing/publishing-to-target-device/app-optimization.md)
+* [JioImmerse App For Jio Mixed Reality (JMR) Devices](building-and-testing/companion-app-for-jio-mixed-reality-jmr-devices/README.md)
   * [Running the application on Prism (Holoboard)](building-and-testing/companion-app-for-jio-mixed-reality-jmr-devices/running-the-application-on-prism-holoboard.md)
 * [IPD Calibration](building-and-testing/ipd-calibration.md)
 
 ## Publish
 
+* [Licensing Journey In JioImmerse](publish/licensing-journey-in-jioimmerse.md)
 * [Signing App for App Store](publish/signing-apk.md)
-* [Publishing to JioGlass Developer Console](publish/publishing-to-jioglass-developer-console.md)
-* [Developer Console Analytics](publish/developer-console-analytics.md)
+* [Publishing to JioImmerse Developer Console](publish/publishing-to-jioimmerse-developer-console.md)
+* [Publishing to Google Play Store](publish/publishing-to-google-play-store/README.md)
+  * [Play Store Upload Journey](publish/publishing-to-google-play-store/play-store-upload-journey.md)
+* [Publishing to Apple Store](publish/publishing-to-apple-store.md)
+* [iOS Deep linking](publish/ios-deep-linking.md)
 
 ## Capturing and Recording
 
@@ -119,6 +126,6 @@
 * [FAQs - Develop](troubleshooting/faqs-develop.md)
 * [FAQs - Building to device](troubleshooting/faqs-building-to-device/README.md)
   * [Gradle](troubleshooting/faqs-building-to-device/gradle.md)
-  * [Old aaptOptions error fix](troubleshooting/faqs-building-to-device/old-aaptoptions-error-fix.md)
+  * [FAQs - iOS](troubleshooting/faqs-building-to-device/faqs-ios.md)
 * [FAQs - Running and Publishing](troubleshooting/faqs-running-and-publishing.md)
 * [Laser Point Not Visible](troubleshooting/laser-point-not-visible.md)

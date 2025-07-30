@@ -1,51 +1,47 @@
-# Companion App For Jio Mixed Reality (JMR) Devices
+# JioImmerse App For Jio Mixed Reality (JMR) Devices
 
 Setting Up The Companion App
 
-* Download the latest **JioGlass** android application package (.apk).
+* Download the latest **JioXR** android application package (.apk).
 * Install this downloaded application on the testing device which you will be using for further debugging.
 
-## Setting up the JioGlass App
+## Setting up the **JioXR** App
 
 Allow all the permissions required.
 
-![](<../../.gitbook/assets/image (41).png>)
+![](<../../.gitbook/assets/Screenshot_20230306-151925 (1).jpg>)
 
-Then Allow the JioGlass App to allow display over other apps, permit usage access, and allow app installation from this source.
+Then Allow the JioXR App to allow display over other apps, permit usage access, and allow app installation from this source.
 
-<figure><img src="../../.gitbook/assets/Untitled design (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (2).png" alt=""><figcaption></figcaption></figure>
 
 Then press on **Login** Button.
 
-![](../../.gitbook/assets/Screenshot_20230116-203720.jpg)
+![](../../.gitbook/assets/ApplicationFrameHost_bnSS0gvcMp.png)
 
 Enter 'developer@tesseract.in' as the email id and the 'JioGlass@123' as a password
 
-![](../../.gitbook/assets/Screenshot_20230116-203749.jpg)
+![](../../.gitbook/assets/Screenshot_20230306-152208.jpg)
 
 Create a profile or select a previously created profile
 
-![](../../.gitbook/assets/Screenshot_20230116-203756.jpg)
+![](../../.gitbook/assets/Screenshot_20230306-152216.jpg)
 
-Change the Device from the top right corner
+Select your device.
 
-![](../../.gitbook/assets/ApplicationFrameHost_0AvXmZY8pH.png)
+![](../../.gitbook/assets/Screenshot_20230306-152221.jpg)
 
-![](../../.gitbook/assets/Screenshot_20230116-203818.jpg)
+If you want to change your device type from the JioXR.
 
-then click on the controller button to connect with the controller
+you can change it from upper right corner
 
-![](../../.gitbook/assets/ApplicationFrameHost_EmVSCLW9Wd.png)
+![](../../.gitbook/assets/ApplicationFrameHost_rsCfaKZnQw.png)
 
-Pair your controller using controller button.
+Get JMR Apps under VR Apps tab.
 
-![](../../.gitbook/assets/Screenshot_20230116-203930.jpg)
+![](../../.gitbook/assets/ApplicationFrameHost_yVuC4VBTRk.png)
 
-{% hint style="danger" %}
-If you got any "Switch on location" and your device location is switched on then restart your JioGlass app after clearing it from the android recent.
-{% endhint %}
 
-Now press the home button of the controller to show the launcher.
 
 Enjoy!
 

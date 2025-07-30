@@ -56,12 +56,6 @@ Select the team signing from the signing and bundle, after selecting the "All" t
 
 <figure><img src="../.gitbook/assets/ApplicationFrameHost_L9KeTZX3gP (1).png" alt=""><figcaption></figcaption></figure>
 
-## Licensing your iOS Application to work with JioImmerse
-
-{% content-ref url="licensing-journey-in-ios-jioimmerse.md" %}
-[licensing-journey-in-ios-jioimmerse.md](licensing-journey-in-ios-jioimmerse.md)
-{% endcontent-ref %}
-
 ## Building and publishing the app
 
 Create a build from Product > Build or use the Command + 'B' shortcut.

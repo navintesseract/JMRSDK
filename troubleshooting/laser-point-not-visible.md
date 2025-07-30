@@ -11,10 +11,10 @@ Go to Asset > JMRSDK > Core > Prefabs > Pointers > JMRLaserPointer and check in 
 3. Set Width Multiplier to **0.04**.
 4. Set Line Number Steps to **20**.
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (63).png>)
 
 See also:
 
-{% content-ref url="../interaction/gaze-and-dwell.md" %}
-[gaze-and-dwell.md](../interaction/gaze-and-dwell.md)
+{% content-ref url="../interaction/gaze-interaction/gaze-and-dwell.md" %}
+[gaze-and-dwell.md](../interaction/gaze-interaction/gaze-and-dwell.md)
 {% endcontent-ref %}

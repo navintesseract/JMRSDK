@@ -24,7 +24,7 @@ To create a licensed application, the following steps have to be performed.
 2. Goto Setup > App integrity > App signing
 3. Copy the SHA-1 certificate fingerprint to be entered into Developer Console.
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ## Setting up licensing in Developer Console
 
@@ -40,7 +40,7 @@ Debug Key - Debug key can be used to test your application and for internal test
 Production Key - This key has to be used for licensing the application to link it with JioImmerse and be available for users.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (53).png" alt=""><figcaption><p>Generating licensing key</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption><p>Generating licensing key</p></figcaption></figure>
 
 ## Setting up licensing in Unity Editor
 
@@ -50,4 +50,4 @@ To build a licensed application compatible with JioImmerse:
 2. Enter the key in the popup in the Unity editor and hit save.
 3. The application is now licensed. Build the application. &#x20;
 
-<div align="left"><figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure></div>
