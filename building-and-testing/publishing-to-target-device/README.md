@@ -1,42 +1,36 @@
 ---
-description: Steps to follow before every build
+description: Steps to follow for setting up Android Manifest
 ---
 
 # Building to Target Device
 
-In this section, we will look at the steps to build your application for **JioDive**.
+This section will look at the steps to build your application Android Manifest.
 
-## Configuring your Project for the build device
+## Configuring your Project Manifest
 
-{% hint style="info" %}
-To build for:
+Select your target device type from JioMixedReality -> Manifest -> Show Asset&#x20;
 
-1\. JioGlass Lite - Configure for Lite
+<figure><img src="../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
 
-2\. JioPrism (Holoboard) - Configure for Holoboard
+This will create and open SO\_JMR\_Manifest in Inspector that has to be set up for your project.
 
-3\. JioDive - Configure for Cardboard
-{% endhint %}
+### Setting Device Type
 
-* Example: \
-  For Dive, Navigate JioMixedReality -> Manifest -> Configure for Cardboard as shown below
+In SO\_JMR\_Manifest -> Device Type and then select your target devices -> Press UPDATE
 
-<figure><img src="../../.gitbook/assets/Unity_g6MSIa00gd.png" alt=""><figcaption><p>Configure for the required device</p></figcaption></figure>
-
-* Ignore any debug errors if present. You will get a debug log saying Manifest status as completed when the process completes successfully.
-* Your project is now set up to build Applications for JioGlass Lite Ecosystem.
+<figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
 
 ### Configuring Interaction in AndroidManifest
 
 Select all the interactions that the build application will support.
 
-<figure><img src="../../.gitbook/assets/Unity_AnW41zP5OR.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
 
 ### Adding Category Tag In AndroidManifest
 
-From JMRSDK 4.32.17+ Category selection has been added in JioMixedReality > Manifest > Configure Category dropdown&#x20;
+Select the category to which the application belongs.
 
-<figure><img src="../../.gitbook/assets/Unity_ZD9qk0ZJTj.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
 
 #### Alternative: Manual Method
 
@@ -55,11 +49,21 @@ Find the value corresponding to your application category from the table below -
 
 * Edit the "android:value" parameter in the following line in your AndroidManifest to reflect your JioGlass Lite Application in the right category. Ensure that you use the same category as used in Developer Console while creating your application listing
 
-{% code title="Example for Gaming category application. app." %}
+{% code title="" %}
 ```markup
 <meta-data android:name="com.jiotesseract.mr.category" android:value="1" />
 ```
 {% endcode %}
+
+## Licensing Journey
+
+{% content-ref url="../licensing-journey-in-android-jioimmerse.md" %}
+[licensing-journey-in-android-jioimmerse.md](../licensing-journey-in-android-jioimmerse.md)
+{% endcontent-ref %}
+
+{% content-ref url="../licensing-journey-in-ios-jioimmerse.md" %}
+[licensing-journey-in-ios-jioimmerse.md](../licensing-journey-in-ios-jioimmerse.md)
+{% endcontent-ref %}
 
 ## Setting up Unity for Target Device
 
@@ -89,29 +93,21 @@ Ensure that your Target Device and the Development System are configured to buil
 
 ![](../../.gitbook/assets/40.png)
 
-* Under the **Other Settings** tab, set the **Graphics APIs** to **Vulkan** and **OpenGLES3 and/or OpenGLES2**.
+* Under the **Other Settings** tab, set the **Graphics APIs** to **Vulkan,** **OpenGLES3, and OpenGLES2**.
 
 {% hint style="info" %}
 This might differ if you are using URP, refer to [URP Support](../../getting-started/urp-support/).
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
-* Under the **Other Settings** tab, deselect the **Multithreaded Rendering,** if you are using **Camera or Mediaplayer**.
+* Under the **Other Settings** tab, set the **Minimum API Level** to **Android 9.0 (API Level 28)** or above and the **Target API Level** to **Android 14 (API Level 34)**.
 
-<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
-
-* Under the **Other Settings** tab, set the **Minimum API Level** to **Android 9.0 (API Level 28)** or above and **Target API Level** to **Android 13.0 (API Level 33)**.
-
-<figure><img src="../../.gitbook/assets/Unity_XhOvyrWFdS.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Apply[ Performance optimization](performance-optimization.md) steps for building with the application on the latest arm64 architecture and get the best performance for your application
 {% endhint %}
-
-* Plugin your Target Android device into your Development System.
-
-![](../../.gitbook/assets/44.png)
 
 * Build the Application.
 

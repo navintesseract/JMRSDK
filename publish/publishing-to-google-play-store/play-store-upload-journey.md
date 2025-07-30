@@ -47,7 +47,7 @@ In the play store, it has to be mentioned that the application will not work wit
 4. Choose the release type: either "Internal test," "Closed test," "Open test," or "Production."
 
 {% hint style="success" %}
-The application has to be on closed beta testing with **ittesseract@gmail.com** as a tester.
+The application has to be on closed beta testing with developertesseract@gmail.com as a tester.
 
 On Tesseract's approval, the application shall further be asked to shift to a different track.
 {% endhint %}

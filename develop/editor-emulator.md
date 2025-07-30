@@ -4,13 +4,17 @@
 
 ![Keyboard key mapping for Editor Testing](../.gitbook/assets/MicrosoftTeams-image.png)
 
+{% hint style="info" %}
+To quickly switch between controller and gaze mode in Unity Editor, press ⎵ (space) on your keyboard.
+{% endhint %}
+
 ## Changing Editor Emulator Bindings
 
 To change these bindings go to Assets > JMRSDK > Emulator > Data > SO\_Emulator Current and change the bindings in the scriptable object.\
 \
 
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
 

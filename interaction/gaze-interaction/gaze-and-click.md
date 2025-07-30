@@ -1,10 +1,16 @@
 # Gaze and Click
 
+To interact with Gaze and click on editor press \[<mark style="color:yellow;">**J**</mark>] on the keyboard
+
+To interact with Gaze and click on JioDive click on the \[JioDive button] as shown below.
+
+<div align="center"><figure><img src="../../.gitbook/assets/dive-click.gif" alt="" width="300"><figcaption><p>JioDive gaze and click button</p></figcaption></figure></div>
+
 ## How to Implement Gaze and Click Interaction&#x20;
 
 Select the Pointer source and Gaze mode from the editor inside the input manager.
 
-<figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
 
 Drag and drop `JMRGazeInteractable.cs` to use the default Gaze and Click features. For example, 3d objects,2d objects, UI elements, etc.; for more information, refer to the Example scene.
 
@@ -26,6 +32,12 @@ To add custom behavior to dwell extent `IScreenTouchHandler` Interface
 * ```
   OnScreenTouchEnded
   ```
-* ```
-  OnScreenTouchClick
-  ```
+*   ```
+    OnScreenTouchClick
+    ```
+
+
+
+### Toggle Interaction
+
+To enable and disable interaction, developers can use `JMRPointerManager.Instance.ToggleInteraction(bool, JMRPointerManager.PointingSource.Head)`

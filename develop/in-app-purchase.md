@@ -12,7 +12,7 @@ To integrate IAP into your application, follow these steps.
 
 Apps made with JMRSDK are shown in the JioImmerse app drawer, where the application launches in MR mode. Native popups cannot be displayed on split-screen. To show native popups we must show the application in mono screen mode from Android Launcher. Modify the Android manifest to show the application in the Android launcher. &#x20;
 
-Add this intent in `Android Manifest` file along with the `intent-filter` for `MR-LAUNCHER`
+Uncomment / Add this intent in `Android Manifest` file along with the `intent-filter` for `MR-LAUNCHER`
 
 ```xml
 <intent-filter>
@@ -21,7 +21,7 @@ Add this intent in `Android Manifest` file along with the `intent-filter` for `M
 </intent-filter>
 ```
 
-<figure><img src="../.gitbook/assets/image (128).png" alt=""><figcaption><p>Android Manifest after modification</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (132).png" alt=""><figcaption><p>Android Manifest after modification</p></figcaption></figure>
 
 ### 2. Creating an IAP Store:
 
@@ -122,4 +122,4 @@ public void OpenJioImmerse()
 }
 ```
 
-<figure><img src="../.gitbook/assets/image (129).png" alt=""><figcaption><p>Sample shop screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (133).png" alt=""><figcaption><p>Sample shop screen</p></figcaption></figure>

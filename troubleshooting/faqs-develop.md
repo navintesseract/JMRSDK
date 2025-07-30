@@ -37,15 +37,19 @@ This issue usually occurs when the files are not properly imported into the proj
 1. Make sure that your gameobjects are not named as "Head" or "Left" or "Right" other than the ones present in JMRMixedReality prefab by default.
 2. Make sure that only "Head" Camera is tagged as "MainCamera".
 
+***
+
 ### # Dive Barrel Distortion Shader is not working properly
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>This is the expected Barrel Distortion Shader for JioDive</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot_2025-01-02-16-32-14-87_8c1639957c55dc4413004aa7405699cb[1].jpg" alt=""><figcaption><p>This is the expected Barrel Distortion Shader for JioDive</p></figcaption></figure>
 
 If using properly, follow the URP guide to set it up properly
 
 {% content-ref url="../getting-started/urp-support/setting-up-your-project-with-urp.md" %}
 [setting-up-your-project-with-urp.md](../getting-started/urp-support/setting-up-your-project-with-urp.md)
 {% endcontent-ref %}
+
+***
 
 ### # Layer not rendering
 
@@ -65,9 +69,9 @@ Default behavior: Layer number 13 is used internally for the screen casting. So 
 
 Layer "Left" and Layer "Right" does not render on respective cameras so you can use these layers if you want to render some object only on some particular camera.
 
-<figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption><p>Unity - NOT in Play Mode</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (64).png" alt=""><figcaption><p>Unity - NOT in Play Mode</p></figcaption></figure>
 
-
+***
 
 ## General
 
@@ -80,7 +84,13 @@ In apk,\
 Check the **AndroidManifest.xml** of your application build using `android studio` or any [3rd party analyzer](https://www.sisik.eu/apk-tool) for `meta data` - `com.jiotesseract.DeviceServiceSDKVersion` \
 corresponding to which SDK version is present.
 
+***
 
+### # Prefabs are not updated as per the latest JMRSDK
+
+If the prefabs present in the scene are not updated after importing the SDK, try deleting those prefabs/instances, import JMRSDK, and add it again in the scene.
+
+***
 
 ### # How to implement quit functionality from the application?
 
@@ -90,7 +100,7 @@ With JMRSDK 4.27.10, implementing quit functionality is only possible through JM
 [setting-homepage-quit-functionality.md](../jmrsdk/jmrrig/setting-homepage-quit-functionality.md)
 {% endcontent-ref %}
 
-
+***
 
 ### # There are debug logs/warnings/errors coming from JMRSDK
 
@@ -100,17 +110,19 @@ These are the debug logs/warnings/errors to be <mark style="color:orange;">**ign
 
 1. `Cannot destroy GameObject that is part of a prefab instance.`
 
-<figure><img src="../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
 
 2. `NullReferenceException: Object reference not set to an instance of an object JMRSDK.JMRCameraManager.OnEnable ()`&#x20;
 
-
+***
 
 ### # Application is facing Z-Fighting
 
 When two or more primitives have very similar distances to the camera. This would cause them to have near-similar or identical values in the z-buffer, which keeps track of depth.
 
 To fix that, physically move the objects further apart
+
+***
 
 ## Input
 
@@ -120,7 +132,7 @@ To fix that, physically move the objects further apart
 2. To enable the Controller Input Actions APIs, you must add JMRInteraction Script to a GameObject in your scene.
 3. Use [this ](../develop/editor-emulator.md)keybinding for triggering input in the unity editor.
 
-
+***
 
 ### # How to implement Gaze and Dwell?
 
@@ -130,7 +142,7 @@ Refer to this:
 [gaze-and-dwell.md](../interaction/gaze-interaction/gaze-and-dwell.md)
 {% endcontent-ref %}
 
-
+***
 
 ### # How to check which pointing source is being used?
 
@@ -140,7 +152,7 @@ You can get the pointing source from JMRPointerManager. Refer to this:
 [gaze-and-dwell.md](../interaction/gaze-interaction/gaze-and-dwell.md)
 {% endcontent-ref %}
 
-
+***
 
 ### # Which controller buttons work with 'Gaze and Dwell' mode?
 
@@ -148,7 +160,7 @@ Although the controller can remain connected when 'gaze and dwell' is enabled, o
 
 None of the other buttons or actions are registered when 'Gaze and Dwell' is enabled.
 
-
+***
 
 ## Device
 
@@ -176,7 +188,7 @@ JioCardboard = JioDive - Physical Controller
 ```
 {% endhint %}
 
-
+***
 
 ### # How to add skybox to AR devices - JioGlass and JioPrism
 
@@ -186,7 +198,7 @@ Refer to [Skybox](../develop/cameras.md#skybox) in AR devices
 The same method can be used to change the far clipping distance of cameras as well.
 {% endhint %}
 
-
+***
 
 ### # How to change FOV in devices
 

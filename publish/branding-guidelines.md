@@ -25,7 +25,7 @@ It represents the brand, grabs attention, and conveys the essence of your produc
   \
   **The image should be used just as it is provided and should not be tampered with, tweaked, or edited in any way.**
 
-<figure><img src="../.gitbook/assets/image (58).png" alt=""><figcaption><p>Badge Usage Reference</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption><p>Badge Usage Reference</p></figcaption></figure>
 
 
 
@@ -37,7 +37,7 @@ It is an opportunity to effectively communicate your app's value proposition and
 To ensure consistency and coherence in your app's branding and JioImmerse, it is important to follow the app description branding guidelines outlined below.
 
 * The description should begin with 1 line overview of the app including the phrase “only with JioImmerse”. Refer to the example below for illustration.\
-  <img src="../.gitbook/assets/image (50).png" alt="" data-size="original">**App Name**: Gallery XR\
+  <img src="../.gitbook/assets/image (54).png" alt="" data-size="original">**App Name**: Gallery XR\
   **App description**: App for viewing photos and videos from your phone in VR that works only with JioImmerse.
 * Further in the description also include the phrase “The visuals are crafted to deliver the best experience on JioDive.”
 

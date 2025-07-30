@@ -8,6 +8,8 @@ JMRMixedReality is the prefab instantiated when you configure a scene for Mixed 
 When allow persist is enabled, JMRMixedReality Gameobject persists, i.e., when the scene is changed, the new JMRMixedReality Gameobject in the loaded scene is replaced with the persistent JMRMixedReality Gameobject.
 {% endhint %}
 
+{% embed url="https://youtu.be/My0u606lDmA?si=p0QH7DOUVFPNP-WL" %}
+
 #### Persistent Rig - Allow Persist enabled
 
 When allow persist is enabled, JMRMixedReality Gameobject is moved to _Don't Destroy On Load_ scene.&#x20;

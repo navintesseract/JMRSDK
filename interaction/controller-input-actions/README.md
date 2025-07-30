@@ -12,10 +12,6 @@ Single click button that takes the user back to the home screen.
 
 Single click button for navigation in the application to previous / pause state
 
-#### **Activate Voice**
-
-Long press button for enabling voice interactions.
-
 #### **Recentre**
 
 Long press button to recentre head and controller orientation during an application.

@@ -7,131 +7,26 @@
 
 ## Generating Deep Link
 
-Prerequisite: Publish the application on Appstore / Test Flight
+1. Open your Xcode project.
+2. Goto Info > URL types > Item 0 > URL Schemas > Item 0
+3. Copy this value which resembles your application name
 
 {% hint style="warning" %}
-Step Xcode I and Xcode II need to be done with every build.
+Make sure **NOT** to include any special characters or white spaces; if present, remove them.
 {% endhint %}
 
-### Firebase I
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-Goto [console.firebase.google.com](https://console.firebase.google.com/)
+4. In Developer Console go to your iOS app > Upload Build&#x20;
+5. In the Deep link section insert value copied in step 3. Append it with `://`
 
-Add a project
+Example
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-14 at 7.17.57 PM.png" alt=""><figcaption></figcaption></figure>
+> From Step 3 you copied `ApplicationName`
+>
+> then in Deep link enter `ApplicationName://`
 
-Enter application name
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-14 at 7.18.11 PM.png" alt=""><figcaption></figcaption></figure>
-
-Create Project
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-14 at 7.18.24 PM.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-14 at 7.19.10 PM.png" alt=""><figcaption></figcaption></figure>
-
-Goto iOS
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-14 at 7.20.06 PM.png" alt=""><figcaption></figcaption></figure>
-
-Create your application
-
-Enter Apple bundle ID, App name, and App store ID (Mandatory to enter all fields)
-
-{% hint style="info" %}
-Get the App Store ID by going into your application, when uploaded on Test Flight in App Store Connect > App information > Apple ID
-{% endhint %}
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-14 at 7.22.36 PM.png" alt=""><figcaption></figcaption></figure>
-
-Get the Team ID for Generating GoogleService-info.plist in next step
-
-<figure><img src="../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
-
-Download the GoogleService-Info.plist
-
-<figure><img src="../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
-
-### Xcode I
-
-Add the above downloaded GoogleService-Info.plist in Unity-iPhone root folder
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-14 at 7.23.36 PM.png" alt=""><figcaption></figcaption></figure>
-
-Select add framework button to add the firebase sdk
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-14 at 7.27.11 PM.png" alt=""><figcaption></figcaption></figure>
-
-Click on "Add Other.." dropdown
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-14 at 7.27.45 PM.png" alt=""><figcaption></figcaption></figure>
-
-Select "Add Package Dependency.."
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-14 at 7.28.01 PM.png" alt=""><figcaption></figcaption></figure>
-
-When prompted, add the Firebase Apple platforms SDK repository:
-
-```
-  https://github.com/firebase/firebase-ios-sdk
-```
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-14 at 7.28.45 PM.png" alt=""><figcaption></figcaption></figure>
-
-Choose the Firebase library > FirebaseDynamicLinks
-
-<figure><img src="../.gitbook/assets/MicrosoftTeams-image (5) (1).png" alt=""><figcaption></figcaption></figure>
-
-### Firebase II
-
-Goto Engage > Dynamic Links
-
-Create a dynamic link page with the URL ending with _<mark style="color:yellow;">page.link</mark>_
-
-{% hint style="success" %}
-Keep your dynamic link page handy. It will be required in step Xcode II.
-{% endhint %}
-
-Create a new Dynamic Link
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-14 at 7.39.02 PM.png" alt=""><figcaption></figcaption></figure>
-
-In **Deep Link URL**; enter your application URL&#x20;
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-14 at 7.41.52 PM.png" alt=""><figcaption></figcaption></figure>
-
-Define the link behavior for Apple to Open the deep link in your Apple app.
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-14 at 7.42.47 PM.png" alt=""><figcaption></figcaption></figure>
-
-Select your application in the dropdown
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-14 at 7.42.53 PM.png" alt=""><figcaption></figcaption></figure>
-
-Create the deep link.
-
-Now you need to associate your generated page to Xcode as sown in Xcode II.
-
-### Xcode II
-
-Unity iPhone > Signing & Capabilities > All > +Add Capacity > Associated Domains:
-
-1. webcredentials:_<mark style="color:yellow;">pagelink</mark>_
-2. applinks:_<mark style="color:yellow;">pagelink</mark>_
-3. activitycontinuation:_<mark style="color:yellow;">pagelink</mark>_
-
-{% hint style="info" %}
-In the above Associated Domains replace _<mark style="color:yellow;">pagelink</mark>_ with dynamic link page generated in step Firebase II.
-{% endhint %}
-
-Goto Unity-iPhone > Info > URL Types > URL Schemes and clear it.
-
-<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
-
-Now create another build of your application and publish it to the App Store
-
-Your deep link is the URL that you get in Firebase. It should be in this format. `https://appname.page.link/page`
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Checking Your Deeplink Functionality
 

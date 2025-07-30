@@ -1,6 +1,6 @@
 # JioDive
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>JioDive</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11).png" alt="" width="375"><figcaption><p>JioDive</p></figcaption></figure>
 
 ## Product Specifications&#x20;
 
@@ -24,3 +24,7 @@ Available in Black color\
 * **Easy integration**
 * **High performance**
 * **Large user base**
+
+## **Product Link**
+
+{% embed url="https://www.jio.com/dive/" %}

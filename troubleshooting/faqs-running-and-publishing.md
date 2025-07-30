@@ -11,17 +11,10 @@ description: Frequently asked questions related to Running and Publishing
 1. Select the correct target device in the companion app.&#x20;
 2. Configure your project for the target device.
 
-{% content-ref url="../building-and-testing/companion-app-for-jio-mixed-reality-jmr-devices/" %}
-[companion-app-for-jio-mixed-reality-jmr-devices](../building-and-testing/companion-app-for-jio-mixed-reality-jmr-devices/)
+{% content-ref url="../building-and-testing/running-your-application/companion-app-for-jio-mixed-reality-jmr-devices.md" %}
+[companion-app-for-jio-mixed-reality-jmr-devices.md](../building-and-testing/running-your-application/companion-app-for-jio-mixed-reality-jmr-devices.md)
 {% endcontent-ref %}
 
 {% content-ref url="../building-and-testing/publishing-to-target-device/" %}
 [publishing-to-target-device](../building-and-testing/publishing-to-target-device/)
 {% endcontent-ref %}
-
-
-
-## Publishing on Dev Console
-
-### # Application failed auto QA
-

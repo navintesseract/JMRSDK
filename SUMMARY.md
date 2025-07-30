@@ -1,21 +1,25 @@
 # Table of contents
 
 * [Jio Mixed Reality SDK Documentation](README.md)
-  * [Changelog 4.35.8](master/changelog-4.35.8/README.md)
-    * [Upgrade Guide 4.35.8](master/changelog-4.35.8/upgrade-guide-4.35.8.md)
+  * [Changelog](master/changelog/README.md)
+    * [Upgrade Guide](master/changelog/upgrade-guide.md)
+  * [Application Requirements](master/application-requirements.md)
 * [Device Information](device-information/README.md)
-  * [Supported Smartphones](device-information/supported-smartphones.md)
+  * [JioGlass](device-information/jioglass.md)
+  * [JioDive](device-information/jiodive.md)
+* [Supported Smartphones](supported-smartphones.md)
 * [Controller Specifications](controller-specifications/README.md)
   * [Physical Controllers](controller-specifications/physical-controllers.md)
-  * [Virtual Controller / Virtual Keyboard for JioGlass](controller-specifications/virtual-controller-virtual-keyboard-for-jioglass.md)
+  * [External Gamepad](controller-specifications/external-gamepad.md)
+  * [Virtual Controller](controller-specifications/virtual-controller.md)
 
 ## Getting Started
 
 * [Development Platform](getting-started/development-platform.md)
 * [Setting Up Jio Mixed Reality Project in Unity](getting-started/setting-up-a-jio-mixed-reality-project-in-unity.md)
+* [Video Tutorials](getting-started/video-tutorials.md)
 * [URP Support](getting-started/urp-support/README.md)
   * [Setting Up Your Project With URP](getting-started/urp-support/setting-up-your-project-with-urp.md)
-  * [Reverting Back to Built-In Render Pipeline](getting-started/urp-support/reverting-back-to-built-in-render-pipeline.md)
 
 ## JMRSDK
 
@@ -25,7 +29,7 @@
 * [JMRRig](jmrsdk/jmrrig/README.md)
   * [Local Rig](jmrsdk/jmrrig/local-rig.md)
   * [Setting Homepage (Quit functionality)](jmrsdk/jmrrig/setting-homepage-quit-functionality.md)
-  * [Recenter Application on Resume](jmrsdk/jmrrig/recenter-application-on-resume.md)
+* [Webcast](jmrsdk/webcast.md)
 
 ## Develop
 
@@ -33,6 +37,7 @@
 * [JioGlass Controller Interactions](develop/controller-interactions.md)
 * [Cameras](develop/cameras.md)
 * [Tesseract Mixed Reality UI Toolkits](develop/jio-mixed-reality-ui-toolkits.md)
+* [In-app purchase](develop/in-app-purchase.md)
 * [Examples](develop/examples.md)
 
 ## Interaction
@@ -43,6 +48,7 @@
 * [Interaction](interaction/interaction/README.md)
   * [Pointer Manager](interaction/interaction/pointer-manager/README.md)
     * [Examples](interaction/interaction/pointer-manager/examples.md)
+  * [Active Input Source](interaction/interaction/active-input-source.md)
 * [Interfaces](interaction/interfaces/README.md)
   * [IFocusable](interaction/interfaces/ifocusable.md)
   * [ISelectHandler](interaction/interfaces/iselecthandler.md)
@@ -54,7 +60,6 @@
   * [IFn2Handler](interaction/interfaces/ifn2handler.md)
   * [ITouchHandler](interaction/interfaces/itouchhandler.md)
   * [ISwipeHandler](interaction/interfaces/iswipehandler.md)
-  * [IVoiceHandler](interaction/interfaces/ivoicehandler.md)
   * [IManipulationHandler](interaction/interfaces/imanipulationhandler.md)
 * [Controller Input Actions](interaction/controller-input-actions/README.md)
   * [Touchpad - Touch](interaction/controller-input-actions/touchpad-touch.md)
@@ -63,21 +68,9 @@
   * [Manipulation](interaction/controller-input-actions/manipulation.md)
 * [Actions](interaction/actions.md)
 * [Device State](interaction/device-state/README.md)
-  * [Device Connected](interaction/device-state/device-connected.md)
-  * [Device Disconnected](interaction/device-state/device-disconnected.md)
-  * [Battery percentage update](interaction/device-state/battery-percentage-update.md)
-  * [Scanning for Device](interaction/device-state/scanning-for-device.md)
-  * [Battery Percentage](interaction/device-state/battery-percentage.md)
-
-## Voice
-
-* [Voice](voice/voice/README.md)
-  * [Speech Events](voice/voice/speech-events.md)
-  * [Speech Result](voice/voice/speech-result.md)
-  * [Speech Error](voice/voice/speech-error.md)
-  * [Speech Session End](voice/voice/speech-session-end.md)
-  * [Speech Cancel](voice/voice/speech-cancel.md)
-* [Listening](voice/listening.md)
+  * [JioDive Device State](interaction/device-state/jiodive-device-state.md)
+  * [JioGlass Device State](interaction/device-state/jioglass-device-state.md)
+  * [Controller Device State](interaction/device-state/controller-device-state.md)
 
 ## Tracking
 
@@ -96,22 +89,24 @@
 
 ## Building and Testing
 
-* [Branding Guidelines](building-and-testing/branding-guidelines.md)
 * [Building to Target Device](building-and-testing/publishing-to-target-device/README.md)
   * [Merging AndroidManifest](building-and-testing/publishing-to-target-device/androidmanifest-update.md)
   * [Performance Optimization](building-and-testing/publishing-to-target-device/performance-optimization.md)
   * [App optimization](building-and-testing/publishing-to-target-device/app-optimization.md)
-* [JioImmerse App For Jio Mixed Reality (JMR) Devices](building-and-testing/companion-app-for-jio-mixed-reality-jmr-devices/README.md)
-  * [Running the application on Prism (Holoboard)](building-and-testing/companion-app-for-jio-mixed-reality-jmr-devices/running-the-application-on-prism-holoboard.md)
-* [IPD Calibration](building-and-testing/ipd-calibration.md)
+* [Running your application](building-and-testing/running-your-application/README.md)
+  * [JioImmerse App For Jio Mixed Reality (JMR) Devices](building-and-testing/running-your-application/companion-app-for-jio-mixed-reality-jmr-devices.md)
+  * [Running the application](building-and-testing/running-your-application/running-the-application.md)
+  * [IPD Calibration](building-and-testing/running-your-application/ipd-calibration.md)
+* [Licensing Journey In Android JioImmerse](building-and-testing/licensing-journey-in-android-jioimmerse.md)
+* [Licensing Journey in iOS JioImmerse](building-and-testing/licensing-journey-in-ios-jioimmerse.md)
 
 ## Publish
 
-* [Licensing Journey In JioImmerse](publish/licensing-journey-in-jioimmerse.md)
-* [Signing App for App Store](publish/signing-apk.md)
-* [Publishing to JioImmerse Developer Console](publish/publishing-to-jioimmerse-developer-console.md)
+* [Branding Guidelines](publish/branding-guidelines.md)
+* [Signing your App](publish/signing-apk.md)
 * [Publishing to Google Play Store](publish/publishing-to-google-play-store/README.md)
   * [Play Store Upload Journey](publish/publishing-to-google-play-store/play-store-upload-journey.md)
+* [Publishing to JioImmerse Developer Console](publish/publishing-to-jioimmerse-developer-console.md)
 * [Publishing to Apple Store](publish/publishing-to-apple-store.md)
 * [iOS Deep linking](publish/ios-deep-linking.md)
 

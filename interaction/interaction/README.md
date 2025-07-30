@@ -12,5 +12,5 @@ Interaction is responsible for managing all swipe, touch, select, and click even
 
 The input Manager is responsible for managing input sources and dispatching relevant events to the appropriate input handlers.
 
-![](<../../.gitbook/assets/image (88).png>)
+![](<../../.gitbook/assets/image (102).png>)
 

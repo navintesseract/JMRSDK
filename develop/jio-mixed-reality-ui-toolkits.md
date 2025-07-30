@@ -1,13 +1,43 @@
 # Tesseract Mixed Reality UI Toolkits
 
 {% hint style="danger" %}
-* Toolkit v1 has been deprecated from JMRSDK 4.12.4, please upgrade to Toolkit v2 to enjoy the latest features and upgrades
-* JMRInputField needs to be updated with the new prefab
+* Toolkit v1 has been deprecated, please upgrade to Toolkit v2 or Toolkit v3 to enjoy the latest features and upgrades
+* JMRInputField needs to be updated with the new prefab JMRPrimaryInputField&#x20;
 {% endhint %}
 
-**Note – It is highly recommended to use the JMRKeyboard in your applications that require a virtual keyboard. This helps to bring consistency for the end-user and reduces overall cognitive overload while using different applications with keyboards**
-
 Toolkits or **JMRToolkits** are intended to accelerate the development of Applications targeting **JioGlass**. In this section, we will learn how to use and customize the Toolkits.
+
+{% hint style="success" %}
+**It is recommended to use the JMRKeyboard in your applications that require a virtual keyboard. This helps to bring consistency for the end-user and reduces overall cognitive overload while using different applications with keyboards**
+{% endhint %}
+
+### UI Toolkits
+
+To make the Jio Mixed Reality interface consistent and easy for developers to build upon, we have introduced drag-n-drop UI toolkits that can be easily configured to suit their needs while adhering to their brand guidelines.
+
+* Color System – Allowing developers to customize the colors of the toolkits from the menu bar.
+* Icon System – Allowing developers to change icons and text from inspector without disturbing alignment, font, and size on each toolkit
+* Toolkits **-**
+  * Canvas
+  * Button
+  * Check Box&#x20;
+  * Check Box Group
+  * DialogBox
+  * Error DialogBox
+  * Drop Down
+  * Image View
+  * Progress bar
+  * Radio Button
+  * Radio Button Group
+  * Horizontal Scroll
+  * Vertical Scroll
+  * Search Field (With Keyboard integrated)
+  * Slider
+  * Toggle Button
+  * Tooltip
+  * Input Field (With Keyboard integrated)
+  * VideoPlayer
+  * Voice Toolkit
 
 ### Using the Toolkits
 

@@ -14,6 +14,8 @@ It also contains the tracking manager, which initializes the necessities for hea
 * Re-Center on Resume
 * Cameras
 
+{% embed url="https://youtu.be/9BSGg-uMYHI?si=YM4889ckPzjK7vZj" %}
+
 ## Rig Manager
 
 #### Methods

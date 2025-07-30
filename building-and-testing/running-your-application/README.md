@@ -12,7 +12,7 @@ There are 2 types of Companion Apps -&#x20;
 
 1. DemoXR&#x20;
 
-DemoXR companion app allows you to run your application with the Debug key as well as the Production key and is intended for developers.
+DemoXR companion app allows you to run your application with the Debug and Production keys. It is intended for developers.
 
 2. JioImmerse
 
@@ -23,7 +23,7 @@ JioImmerse companion app allows you to run your application with the Production 
 | Debug Key          | ✅          | ❌          |
 | Production Key     | ✅          | ✅          |
 | Intended for       | Developers | Consumers  |
-| JioVerse App store | ❌          | ✅          |
+| JioVerse App store | ✅          | ✅          |
 
 {% hint style="info" %}
 As a developer, you should use **DemoXR** as it will allow you to use the Debug key as well as the production key.
