@@ -1,8 +1,7 @@
 # Table of contents
 
-* [Jio Mixed Reality SDK Documentation](README.md)
-  * [Changelog 4.34.1](master/changelog-4.34.1/README.md)
-    * [Upgrade Guide 4.34.1](master/changelog-4.34.1/upgrade-guide-4.34.1.md)
+* [Tesseract Mixed Reality SDK Documentation](README.md)
+  * [Changelog - 4.32](master/changelog-4.32.md)
 * [Device Information](device-information/README.md)
   * [Supported Smartphones](device-information/supported-smartphones.md)
 * [Controller Specifications](controller-specifications/README.md)
@@ -12,7 +11,7 @@
 ## Getting Started
 
 * [Development Platform](getting-started/development-platform.md)
-* [Setting Up Jio Mixed Reality Project in Unity](getting-started/setting-up-a-jio-mixed-reality-project-in-unity.md)
+* [Setting Up A Jio Mixed Reality Project in Unity](getting-started/setting-up-a-jio-mixed-reality-project-in-unity.md)
 * [URP Support](getting-started/urp-support/README.md)
   * [Setting Up Your Project With URP](getting-started/urp-support/setting-up-your-project-with-urp.md)
   * [Reverting Back to Built-In Render Pipeline](getting-started/urp-support/reverting-back-to-built-in-render-pipeline.md)
@@ -32,7 +31,7 @@
 * [Editor Emulator](develop/editor-emulator.md)
 * [JioGlass Controller Interactions](develop/controller-interactions.md)
 * [Cameras](develop/cameras.md)
-* [Tesseract Mixed Reality UI Toolkits](develop/jio-mixed-reality-ui-toolkits.md)
+* [Jio Mixed Reality UI Toolkits](develop/jio-mixed-reality-ui-toolkits.md)
 * [Examples](develop/examples.md)
 
 ## Interaction
@@ -41,6 +40,9 @@
   * [Gaze and Click](interaction/gaze-interaction/gaze-and-click.md)
   * [Gaze and Dwell](interaction/gaze-interaction/gaze-and-dwell.md)
 * [Interaction](interaction/interaction/README.md)
+  * [JioGlass Lite Interaction](interaction/interaction/jioglass-lite-interaction.md)
+  * [Jio Prism(Holoboard) Interaction](interaction/interaction/jio-prism-holoboard-interaction.md)
+  * [Jio Dive Interaction](interaction/interaction/jio-dive-interaction.md)
   * [Pointer Manager](interaction/interaction/pointer-manager/README.md)
     * [Examples](interaction/interaction/pointer-manager/examples.md)
 * [Interfaces](interaction/interfaces/README.md)
@@ -96,22 +98,18 @@
 
 ## Building and Testing
 
-* [Branding Guidelines](building-and-testing/branding-guidelines.md)
 * [Building to Target Device](building-and-testing/publishing-to-target-device/README.md)
   * [Merging AndroidManifest](building-and-testing/publishing-to-target-device/androidmanifest-update.md)
   * [Performance Optimization](building-and-testing/publishing-to-target-device/performance-optimization.md)
-  * [App optimization](building-and-testing/publishing-to-target-device/app-optimization.md)
-* [JioImmerse App For Jio Mixed Reality (JMR) Devices](building-and-testing/companion-app-for-jio-mixed-reality-jmr-devices/README.md)
+* [Companion App For Jio Mixed Reality (JMR) Devices](building-and-testing/companion-app-for-jio-mixed-reality-jmr-devices/README.md)
   * [Running the application on Prism (Holoboard)](building-and-testing/companion-app-for-jio-mixed-reality-jmr-devices/running-the-application-on-prism-holoboard.md)
 * [IPD Calibration](building-and-testing/ipd-calibration.md)
 
 ## Publish
 
-* [Licensing Journey In JioImmerse](publish/licensing-journey-in-jioimmerse.md)
 * [Signing App for App Store](publish/signing-apk.md)
-* [Publishing to JioImmerse Developer Console](publish/publishing-to-jioimmerse-developer-console.md)
-* [Publishing to Google Play Store](publish/publishing-to-google-play-store/README.md)
-  * [Play Store Upload Journey](publish/publishing-to-google-play-store/play-store-upload-journey.md)
+* [Publishing to JioGlass Developer Console](publish/publishing-to-jioglass-developer-console.md)
+* [Developer Console Analytics](publish/developer-console-analytics.md)
 
 ## Capturing and Recording
 

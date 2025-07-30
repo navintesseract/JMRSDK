@@ -18,4 +18,4 @@ description: >-
 
 ### Prefabs
 
-<div align="left"><figure><img src="../.gitbook/assets/Unity_1kTFMGnyJG.png" alt=""><figcaption><p>JMRSDK Prefabs</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/Unity_1kTFMGnyJG (1).png" alt=""><figcaption><p>JMRSDK Prefabs</p></figcaption></figure></div>

@@ -1,8 +1,8 @@
 ---
-description: JMRSDK v4.34 (LTS for JioDive)
+description: JMRSDK v4.32.3 (LTS for JioDive)
 ---
 
-# Jio Mixed Reality SDK Documentation
+# Tesseract Mixed Reality SDK Documentation
 
 ## Introducing JMRSDK
 

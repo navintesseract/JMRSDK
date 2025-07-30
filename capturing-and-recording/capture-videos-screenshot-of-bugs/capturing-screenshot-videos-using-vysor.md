@@ -14,7 +14,7 @@
 
 * Once Vysor is installed, connect your android device to your machine
 
-![](<../../.gitbook/assets/7 (1).PNG>)
+![](../../.gitbook/assets/7.PNG)
 
 * Your android device will be automatically detected by the Vysor. In case Android device not detected, follow these steps mentioned in this [**link**](https://support.vysor.io/technical/notfound/)
 * Click on the View device icon (Play logo) visible in Infront of your android device model

@@ -66,6 +66,6 @@ Note: The Creatives will be live on the platform only when you upload a build wi
     <div align="left"><figure><img src="../.gitbook/assets/2023-01-16-21-19-46.png" alt=""><figcaption></figcaption></figure></div>
 * Make sure to Submit and Publish to send the build for approval.
 
-<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
 * Once the Application is approved, it will be visible under the platform for which it was published.

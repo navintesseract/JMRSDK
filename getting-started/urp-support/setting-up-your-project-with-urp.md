@@ -8,12 +8,12 @@ This feature is only available from JMRSDK 4.24.1 onwards
 * Install URP in your project using the following steps - \
   &#xNAN;_&#x57;indow -> Package Manager -> Universal RP_
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-01-17 195952 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-01-17 195952 (1).png" alt=""><figcaption></figcaption></figure>
 
 * Upgrade materials in the current project to URP materials using the following steps - \
   &#xNAN;_&#x4E;avigate to Edit -> Render Pipeline -> Universal Render Pipeline -> Upgrade Project Materials to UniversalRP Materials_
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-01-17 200029 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-01-17 200029.png" alt=""><figcaption></figcaption></figure>
 
 * Create **UniversalRenderPipeline** Asset\
   &#xNAN;_&#x52;ight Click in the Asset Folder then Create -> Rendering -> Universal Render Pipeline -> Pipeline Asset (Forward Renderer)_

@@ -1,4 +1,4 @@
-# Tesseract Mixed Reality UI Toolkits
+# Jio Mixed Reality UI Toolkits
 
 {% hint style="danger" %}
 * Toolkit v1 has been deprecated from JMRSDK 4.12.4, please upgrade to Toolkit v2 to enjoy the latest features and upgrades

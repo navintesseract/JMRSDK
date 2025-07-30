@@ -1,4 +1,4 @@
-# JioImmerse App For Jio Mixed Reality (JMR) Devices
+# Companion App For Jio Mixed Reality (JMR) Devices
 
 Setting Up The Companion App
 
@@ -13,7 +13,7 @@ Allow all the permissions required.
 
 Then Allow the JioXR App to allow display over other apps, permit usage access, and allow app installation from this source.
 
-<figure><img src="../../.gitbook/assets/4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (1).png" alt=""><figcaption></figcaption></figure>
 
 Then press on **Login** Button.
 
